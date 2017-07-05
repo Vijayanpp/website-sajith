@@ -13186,6 +13186,7 @@ div.real_wrap_element_list {
   display: table;
   border: 1px solid #000;
   margin-right: 20px;
+  border-radius:50%;
 }
 
 .real-item-service .entry-icon i {
