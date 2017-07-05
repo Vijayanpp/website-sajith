@@ -4153,7 +4153,7 @@ li.tbhead.current {
 
 /** EPL Search Default **/
 .epl-search-forms-wrapper.epl-search-default {
-  max-width: 300px;
+  max-width: 100%;
 }
 
 /** EPL Search Wide **/
@@ -5254,7 +5254,7 @@ li.tbhead.current {
 
 .widget_epl_property_search .epl-search-tabs li.epl-sb-current {
   background-color: inherit;
-  color: #000;
+  color: #fed301;
   border-bottom: 0px;
   font-weight: 500;
 }
@@ -13176,7 +13176,7 @@ div.real_wrap_element_list {
 }
 
 .real-item-service:hover .entry-icon i {
-  color: #ffffff;
+  color: #ffdf00;
 }
 
 .real-item-service .entry-icon {
