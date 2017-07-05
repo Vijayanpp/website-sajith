@@ -11,7 +11,7 @@
 	rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="images/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="font/flaticon.css">
 	<link rel="stylesheet" href="css-plugin/bootstrap.css">
 	<link rel="stylesheet" href="css-plugin/slider.pro.css">
@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="css-plugin/jquery.mCustomScrollbar.css">
 	<link rel="stylesheet" href="css/hody-icons.css">
 	<link rel="stylesheet" href="css/style.css">
-  <script src="https://use.fontawesome.com/4fc54011f0.js"></script>
+	<script src="https://use.fontawesome.com/4fc54011f0.js"></script>
 </head>
 
 <body>
@@ -132,11 +132,10 @@
 						<div class="menu-item">
 							<div class="header-socials">
 								<ul>
-									<li><a target="_blank" href="#"><i class="hc-facebook"></i></a>
+									<li><a target="_blank" href="#" data-target="#login" data-toggle="modal">Login/Register</i></a>
 									</li>
-									<li><a target="_blank" href="#"><i class="hc-twitter"></i></a>
-									</li>
-									<li><a target="_blank" href="#"><i class="hc-instagram"></i></a>
+
+
 									</li>
 								</ul>
 							</div>
@@ -215,7 +214,8 @@
 
 								</ul>
 							</li>
-							<li class="menu-item-has-children"><a href="#">Sold</a>
+							<li class="menu-item-has-children">
+								<a href="#">Sold</a>
 								<ul class="submenu">
 									<li>
 										<a href="#">Home</a>
@@ -256,8 +256,8 @@
 										<a href="#">Blog</a>									
 									</li>-->
 
-							<li class="menu-btn-item last-elements"><a href="#" data-toggle="modal" data-target="#login" data-scroll="true" data-custom-bg="#0ee0c9" style="background-color:#000;color:#ffdf00;">Sign Up</a>
-							</li>
+							<!--<li class="menu-btn-item last-elements"><a href="#" data-toggle="modal" data-target="#login" data-scroll="true" data-custom-bg="#0ee0c9" style="background-color:#000;color:#ffdf00;">Sign Up</a>
+							</li>-->
 
 						</ul>
 						</li>
@@ -301,6 +301,1742 @@
 			</div>
 		</section>
 
+		<section class="real_area real_area_01">
+			<div class="container">
+				<div class="row ul-mh3">
+					<div class="col-md-4 col-sm-12 col-xs-12 col_custom_left" style="height: 754px;">
+						<div class="widget widget_epl_property_search">
+							<div class="widget-title">
+								<h3 class="real_custom_hd">
+									<i class="fa fa-search"></i> Find your home
+								</h3>
+							</div>
+							<div class="widget-content">
+								<ul class="epl-search-tabs property_search-tabs epl-search-default">
+									<li data-tab="epl_ps_tab_1" class="tab-link epl-sb-current">Buy</li>
+									<li data-tab="epl_ps_tab_2" class="tab-link ">rent</li>
+									<li data-tab="epl_ps_tab_3" class="tab-link ">rural</li>
+								</ul>
+								<div class="epl-search-forms-wrapper epl-search-default">
+									<div class="epl-search-form epl-sb-current" id="epl_ps_tab_1">
+										<form method="get" action="https://easypropertylistings.com.au/demo/">
+											<input type="hidden" name="action" value="epl_search">
+											<input type="hidden" class="in-field field-width" name="post_type" value="property">
+											<input type="hidden" class="in-field field-width" name="property_status" value="">
+											<div class="epl-search-row epl-search-row-text epl-property_id fm-block epl-search-row-full">
+												<label class="epl-search-label fm-label">
+                                                    Search by Property ID / Address </label>
+												<div class="field">
+													<input type="text" class="in-field field-width" name="property_id" value="">
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_location fm-block epl-search-row-full">
+												<label class="epl-search-label fm-label">
+                                                    Suburb </label>
+												<div class="field">
+													<select name="property_location" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="22">Brisbane</option>
+                                                        <option value="3">Perth</option>
+                                                        <option value="11">Sorrento</option>
+                                                        <option value="21">Sydney</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_category fm-block epl-search-row-full">
+												<label class="epl-search-label fm-label">
+                                                    House Category </label>
+												<div class="field">
+													<select name="property_category" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="House">House</option>
+                                                        <option value="Unit">Unit</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_price_from fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Price From </label>
+												<div class="field">
+													<select name="property_price_from" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="50000">$50,000</option>
+                                                        <option value="100000">$100,000</option>
+                                                        <option value="150000">$150,000</option>
+                                                        <option value="200000">$200,000</option>
+                                                        <option value="250000">$250,000</option>
+                                                        <option value="300000">$300,000</option>
+                                                        <option value="350000">$350,000</option>
+                                                        <option value="400000">$400,000</option>
+                                                        <option value="450000">$450,000</option>
+                                                        <option value="500000">$500,000</option>
+                                                        <option value="550000">$550,000</option>
+                                                        <option value="600000">$600,000</option>
+                                                        <option value="650000">$650,000</option>
+                                                        <option value="700000">$700,000</option>
+                                                        <option value="750000">$750,000</option>
+                                                        <option value="800000">$800,000</option>
+                                                        <option value="850000">$850,000</option>
+                                                        <option value="900000">$900,000</option>
+                                                        <option value="950000">$950,000</option>
+                                                        <option value="1000000">$1,000,000</option>
+                                                        <option value="1050000">$1,050,000</option>
+                                                        <option value="1100000">$1,100,000</option>
+                                                        <option value="1150000">$1,150,000</option>
+                                                        <option value="1200000">$1,200,000</option>
+                                                        <option value="1250000">$1,250,000</option>
+                                                        <option value="1300000">$1,300,000</option>
+                                                        <option value="1350000">$1,350,000</option>
+                                                        <option value="1400000">$1,400,000</option>
+                                                        <option value="1450000">$1,450,000</option>
+                                                        <option value="1500000">$1,500,000</option>
+                                                        <option value="1550000">$1,550,000</option>
+                                                        <option value="1600000">$1,600,000</option>
+                                                        <option value="1650000">$1,650,000</option>
+                                                        <option value="1700000">$1,700,000</option>
+                                                        <option value="1750000">$1,750,000</option>
+                                                        <option value="1800000">$1,800,000</option>
+                                                        <option value="1850000">$1,850,000</option>
+                                                        <option value="1900000">$1,900,000</option>
+                                                        <option value="1950000">$1,950,000</option>
+                                                        <option value="2000000">$2,000,000</option>
+                                                        <option value="2050000">$2,050,000</option>
+                                                        <option value="2100000">$2,100,000</option>
+                                                        <option value="2150000">$2,150,000</option>
+                                                        <option value="2200000">$2,200,000</option>
+                                                        <option value="2250000">$2,250,000</option>
+                                                        <option value="2300000">$2,300,000</option>
+                                                        <option value="2350000">$2,350,000</option>
+                                                        <option value="2400000">$2,400,000</option>
+                                                        <option value="2450000">$2,450,000</option>
+                                                        <option value="2500000">$2,500,000</option>
+                                                        <option value="2550000">$2,550,000</option>
+                                                        <option value="2600000">$2,600,000</option>
+                                                        <option value="2650000">$2,650,000</option>
+                                                        <option value="2700000">$2,700,000</option>
+                                                        <option value="2750000">$2,750,000</option>
+                                                        <option value="2800000">$2,800,000</option>
+                                                        <option value="2850000">$2,850,000</option>
+                                                        <option value="2900000">$2,900,000</option>
+                                                        <option value="2950000">$2,950,000</option>
+                                                        <option value="3000000">$3,000,000</option>
+                                                        <option value="3050000">$3,050,000</option>
+                                                        <option value="3100000">$3,100,000</option>
+                                                        <option value="3150000">$3,150,000</option>
+                                                        <option value="3200000">$3,200,000</option>
+                                                        <option value="3250000">$3,250,000</option>
+                                                        <option value="3300000">$3,300,000</option>
+                                                        <option value="3350000">$3,350,000</option>
+                                                        <option value="3400000">$3,400,000</option>
+                                                        <option value="3450000">$3,450,000</option>
+                                                        <option value="3500000">$3,500,000</option>
+                                                        <option value="3550000">$3,550,000</option>
+                                                        <option value="3600000">$3,600,000</option>
+                                                        <option value="3650000">$3,650,000</option>
+                                                        <option value="3700000">$3,700,000</option>
+                                                        <option value="3750000">$3,750,000</option>
+                                                        <option value="3800000">$3,800,000</option>
+                                                        <option value="3850000">$3,850,000</option>
+                                                        <option value="3900000">$3,900,000</option>
+                                                        <option value="3950000">$3,950,000</option>
+                                                        <option value="4000000">$4,000,000</option>
+                                                        <option value="4050000">$4,050,000</option>
+                                                        <option value="4100000">$4,100,000</option>
+                                                        <option value="4150000">$4,150,000</option>
+                                                        <option value="4200000">$4,200,000</option>
+                                                        <option value="4250000">$4,250,000</option>
+                                                        <option value="4300000">$4,300,000</option>
+                                                        <option value="4350000">$4,350,000</option>
+                                                        <option value="4400000">$4,400,000</option>
+                                                        <option value="4450000">$4,450,000</option>
+                                                        <option value="4500000">$4,500,000</option>
+                                                        <option value="4550000">$4,550,000</option>
+                                                        <option value="4600000">$4,600,000</option>
+                                                        <option value="4650000">$4,650,000</option>
+                                                        <option value="4700000">$4,700,000</option>
+                                                        <option value="4750000">$4,750,000</option>
+                                                        <option value="4800000">$4,800,000</option>
+                                                        <option value="4850000">$4,850,000</option>
+                                                        <option value="4900000">$4,900,000</option>
+                                                        <option value="4950000">$4,950,000</option>
+                                                        <option value="5000000">$5,000,000</option>
+                                                        <option value="5050000">$5,050,000</option>
+                                                        <option value="5100000">$5,100,000</option>
+                                                        <option value="5150000">$5,150,000</option>
+                                                        <option value="5200000">$5,200,000</option>
+                                                        <option value="5250000">$5,250,000</option>
+                                                        <option value="5300000">$5,300,000</option>
+                                                        <option value="5350000">$5,350,000</option>
+                                                        <option value="5400000">$5,400,000</option>
+                                                        <option value="5450000">$5,450,000</option>
+                                                        <option value="5500000">$5,500,000</option>
+                                                        <option value="5550000">$5,550,000</option>
+                                                        <option value="5600000">$5,600,000</option>
+                                                        <option value="5650000">$5,650,000</option>
+                                                        <option value="5700000">$5,700,000</option>
+                                                        <option value="5750000">$5,750,000</option>
+                                                        <option value="5800000">$5,800,000</option>
+                                                        <option value="5850000">$5,850,000</option>
+                                                        <option value="5900000">$5,900,000</option>
+                                                        <option value="5950000">$5,950,000</option>
+                                                        <option value="6000000">$6,000,000</option>
+                                                        <option value="6050000">$6,050,000</option>
+                                                        <option value="6100000">$6,100,000</option>
+                                                        <option value="6150000">$6,150,000</option>
+                                                        <option value="6200000">$6,200,000</option>
+                                                        <option value="6250000">$6,250,000</option>
+                                                        <option value="6300000">$6,300,000</option>
+                                                        <option value="6350000">$6,350,000</option>
+                                                        <option value="6400000">$6,400,000</option>
+                                                        <option value="6450000">$6,450,000</option>
+                                                        <option value="6500000">$6,500,000</option>
+                                                        <option value="6550000">$6,550,000</option>
+                                                        <option value="6600000">$6,600,000</option>
+                                                        <option value="6650000">$6,650,000</option>
+                                                        <option value="6700000">$6,700,000</option>
+                                                        <option value="6750000">$6,750,000</option>
+                                                        <option value="6800000">$6,800,000</option>
+                                                        <option value="6850000">$6,850,000</option>
+                                                        <option value="6900000">$6,900,000</option>
+                                                        <option value="6950000">$6,950,000</option>
+                                                        <option value="7000000">$7,000,000</option>
+                                                        <option value="7050000">$7,050,000</option>
+                                                        <option value="7100000">$7,100,000</option>
+                                                        <option value="7150000">$7,150,000</option>
+                                                        <option value="7200000">$7,200,000</option>
+                                                        <option value="7250000">$7,250,000</option>
+                                                        <option value="7300000">$7,300,000</option>
+                                                        <option value="7350000">$7,350,000</option>
+                                                        <option value="7400000">$7,400,000</option>
+                                                        <option value="7450000">$7,450,000</option>
+                                                        <option value="7500000">$7,500,000</option>
+                                                        <option value="7550000">$7,550,000</option>
+                                                        <option value="7600000">$7,600,000</option>
+                                                        <option value="7650000">$7,650,000</option>
+                                                        <option value="7700000">$7,700,000</option>
+                                                        <option value="7750000">$7,750,000</option>
+                                                        <option value="7800000">$7,800,000</option>
+                                                        <option value="7850000">$7,850,000</option>
+                                                        <option value="7900000">$7,900,000</option>
+                                                        <option value="7950000">$7,950,000</option>
+                                                        <option value="8000000">$8,000,000</option>
+                                                        <option value="8050000">$8,050,000</option>
+                                                        <option value="8100000">$8,100,000</option>
+                                                        <option value="8150000">$8,150,000</option>
+                                                        <option value="8200000">$8,200,000</option>
+                                                        <option value="8250000">$8,250,000</option>
+                                                        <option value="8300000">$8,300,000</option>
+                                                        <option value="8350000">$8,350,000</option>
+                                                        <option value="8400000">$8,400,000</option>
+                                                        <option value="8450000">$8,450,000</option>
+                                                        <option value="8500000">$8,500,000</option>
+                                                        <option value="8550000">$8,550,000</option>
+                                                        <option value="8600000">$8,600,000</option>
+                                                        <option value="8650000">$8,650,000</option>
+                                                        <option value="8700000">$8,700,000</option>
+                                                        <option value="8750000">$8,750,000</option>
+                                                        <option value="8800000">$8,800,000</option>
+                                                        <option value="8850000">$8,850,000</option>
+                                                        <option value="8900000">$8,900,000</option>
+                                                        <option value="8950000">$8,950,000</option>
+                                                        <option value="9000000">$9,000,000</option>
+                                                        <option value="9050000">$9,050,000</option>
+                                                        <option value="9100000">$9,100,000</option>
+                                                        <option value="9150000">$9,150,000</option>
+                                                        <option value="9200000">$9,200,000</option>
+                                                        <option value="9250000">$9,250,000</option>
+                                                        <option value="9300000">$9,300,000</option>
+                                                        <option value="9350000">$9,350,000</option>
+                                                        <option value="9400000">$9,400,000</option>
+                                                        <option value="9450000">$9,450,000</option>
+                                                        <option value="9500000">$9,500,000</option>
+                                                        <option value="9550000">$9,550,000</option>
+                                                        <option value="9600000">$9,600,000</option>
+                                                        <option value="9650000">$9,650,000</option>
+                                                        <option value="9700000">$9,700,000</option>
+                                                        <option value="9750000">$9,750,000</option>
+                                                        <option value="9800000">$9,800,000</option>
+                                                        <option value="9850000">$9,850,000</option>
+                                                        <option value="9900000">$9,900,000</option>
+                                                        <option value="9950000">$9,950,000</option>
+                                                        <option value="10000000">$10,000,000</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_price_to fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Price To </label>
+												<div class="field">
+													<select name="property_price_to" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="50000">$50,000</option>
+                                                        <option value="100000">$100,000</option>
+                                                        <option value="150000">$150,000</option>
+                                                        <option value="200000">$200,000</option>
+                                                        <option value="250000">$250,000</option>
+                                                        <option value="300000">$300,000</option>
+                                                        <option value="350000">$350,000</option>
+                                                        <option value="400000">$400,000</option>
+                                                        <option value="450000">$450,000</option>
+                                                        <option value="500000">$500,000</option>
+                                                        <option value="550000">$550,000</option>
+                                                        <option value="600000">$600,000</option>
+                                                        <option value="650000">$650,000</option>
+                                                        <option value="700000">$700,000</option>
+                                                        <option value="750000">$750,000</option>
+                                                        <option value="800000">$800,000</option>
+                                                        <option value="850000">$850,000</option>
+                                                        <option value="900000">$900,000</option>
+                                                        <option value="950000">$950,000</option>
+                                                        <option value="1000000">$1,000,000</option>
+                                                        <option value="1050000">$1,050,000</option>
+                                                        <option value="1100000">$1,100,000</option>
+                                                        <option value="1150000">$1,150,000</option>
+                                                        <option value="1200000">$1,200,000</option>
+                                                        <option value="1250000">$1,250,000</option>
+                                                        <option value="1300000">$1,300,000</option>
+                                                        <option value="1350000">$1,350,000</option>
+                                                        <option value="1400000">$1,400,000</option>
+                                                        <option value="1450000">$1,450,000</option>
+                                                        <option value="1500000">$1,500,000</option>
+                                                        <option value="1550000">$1,550,000</option>
+                                                        <option value="1600000">$1,600,000</option>
+                                                        <option value="1650000">$1,650,000</option>
+                                                        <option value="1700000">$1,700,000</option>
+                                                        <option value="1750000">$1,750,000</option>
+                                                        <option value="1800000">$1,800,000</option>
+                                                        <option value="1850000">$1,850,000</option>
+                                                        <option value="1900000">$1,900,000</option>
+                                                        <option value="1950000">$1,950,000</option>
+                                                        <option value="2000000">$2,000,000</option>
+                                                        <option value="2050000">$2,050,000</option>
+                                                        <option value="2100000">$2,100,000</option>
+                                                        <option value="2150000">$2,150,000</option>
+                                                        <option value="2200000">$2,200,000</option>
+                                                        <option value="2250000">$2,250,000</option>
+                                                        <option value="2300000">$2,300,000</option>
+                                                        <option value="2350000">$2,350,000</option>
+                                                        <option value="2400000">$2,400,000</option>
+                                                        <option value="2450000">$2,450,000</option>
+                                                        <option value="2500000">$2,500,000</option>
+                                                        <option value="2550000">$2,550,000</option>
+                                                        <option value="2600000">$2,600,000</option>
+                                                        <option value="2650000">$2,650,000</option>
+                                                        <option value="2700000">$2,700,000</option>
+                                                        <option value="2750000">$2,750,000</option>
+                                                        <option value="2800000">$2,800,000</option>
+                                                        <option value="2850000">$2,850,000</option>
+                                                        <option value="2900000">$2,900,000</option>
+                                                        <option value="2950000">$2,950,000</option>
+                                                        <option value="3000000">$3,000,000</option>
+                                                        <option value="3050000">$3,050,000</option>
+                                                        <option value="3100000">$3,100,000</option>
+                                                        <option value="3150000">$3,150,000</option>
+                                                        <option value="3200000">$3,200,000</option>
+                                                        <option value="3250000">$3,250,000</option>
+                                                        <option value="3300000">$3,300,000</option>
+                                                        <option value="3350000">$3,350,000</option>
+                                                        <option value="3400000">$3,400,000</option>
+                                                        <option value="3450000">$3,450,000</option>
+                                                        <option value="3500000">$3,500,000</option>
+                                                        <option value="3550000">$3,550,000</option>
+                                                        <option value="3600000">$3,600,000</option>
+                                                        <option value="3650000">$3,650,000</option>
+                                                        <option value="3700000">$3,700,000</option>
+                                                        <option value="3750000">$3,750,000</option>
+                                                        <option value="3800000">$3,800,000</option>
+                                                        <option value="3850000">$3,850,000</option>
+                                                        <option value="3900000">$3,900,000</option>
+                                                        <option value="3950000">$3,950,000</option>
+                                                        <option value="4000000">$4,000,000</option>
+                                                        <option value="4050000">$4,050,000</option>
+                                                        <option value="4100000">$4,100,000</option>
+                                                        <option value="4150000">$4,150,000</option>
+                                                        <option value="4200000">$4,200,000</option>
+                                                        <option value="4250000">$4,250,000</option>
+                                                        <option value="4300000">$4,300,000</option>
+                                                        <option value="4350000">$4,350,000</option>
+                                                        <option value="4400000">$4,400,000</option>
+                                                        <option value="4450000">$4,450,000</option>
+                                                        <option value="4500000">$4,500,000</option>
+                                                        <option value="4550000">$4,550,000</option>
+                                                        <option value="4600000">$4,600,000</option>
+                                                        <option value="4650000">$4,650,000</option>
+                                                        <option value="4700000">$4,700,000</option>
+                                                        <option value="4750000">$4,750,000</option>
+                                                        <option value="4800000">$4,800,000</option>
+                                                        <option value="4850000">$4,850,000</option>
+                                                        <option value="4900000">$4,900,000</option>
+                                                        <option value="4950000">$4,950,000</option>
+                                                        <option value="5000000">$5,000,000</option>
+                                                        <option value="5050000">$5,050,000</option>
+                                                        <option value="5100000">$5,100,000</option>
+                                                        <option value="5150000">$5,150,000</option>
+                                                        <option value="5200000">$5,200,000</option>
+                                                        <option value="5250000">$5,250,000</option>
+                                                        <option value="5300000">$5,300,000</option>
+                                                        <option value="5350000">$5,350,000</option>
+                                                        <option value="5400000">$5,400,000</option>
+                                                        <option value="5450000">$5,450,000</option>
+                                                        <option value="5500000">$5,500,000</option>
+                                                        <option value="5550000">$5,550,000</option>
+                                                        <option value="5600000">$5,600,000</option>
+                                                        <option value="5650000">$5,650,000</option>
+                                                        <option value="5700000">$5,700,000</option>
+                                                        <option value="5750000">$5,750,000</option>
+                                                        <option value="5800000">$5,800,000</option>
+                                                        <option value="5850000">$5,850,000</option>
+                                                        <option value="5900000">$5,900,000</option>
+                                                        <option value="5950000">$5,950,000</option>
+                                                        <option value="6000000">$6,000,000</option>
+                                                        <option value="6050000">$6,050,000</option>
+                                                        <option value="6100000">$6,100,000</option>
+                                                        <option value="6150000">$6,150,000</option>
+                                                        <option value="6200000">$6,200,000</option>
+                                                        <option value="6250000">$6,250,000</option>
+                                                        <option value="6300000">$6,300,000</option>
+                                                        <option value="6350000">$6,350,000</option>
+                                                        <option value="6400000">$6,400,000</option>
+                                                        <option value="6450000">$6,450,000</option>
+                                                        <option value="6500000">$6,500,000</option>
+                                                        <option value="6550000">$6,550,000</option>
+                                                        <option value="6600000">$6,600,000</option>
+                                                        <option value="6650000">$6,650,000</option>
+                                                        <option value="6700000">$6,700,000</option>
+                                                        <option value="6750000">$6,750,000</option>
+                                                        <option value="6800000">$6,800,000</option>
+                                                        <option value="6850000">$6,850,000</option>
+                                                        <option value="6900000">$6,900,000</option>
+                                                        <option value="6950000">$6,950,000</option>
+                                                        <option value="7000000">$7,000,000</option>
+                                                        <option value="7050000">$7,050,000</option>
+                                                        <option value="7100000">$7,100,000</option>
+                                                        <option value="7150000">$7,150,000</option>
+                                                        <option value="7200000">$7,200,000</option>
+                                                        <option value="7250000">$7,250,000</option>
+                                                        <option value="7300000">$7,300,000</option>
+                                                        <option value="7350000">$7,350,000</option>
+                                                        <option value="7400000">$7,400,000</option>
+                                                        <option value="7450000">$7,450,000</option>
+                                                        <option value="7500000">$7,500,000</option>
+                                                        <option value="7550000">$7,550,000</option>
+                                                        <option value="7600000">$7,600,000</option>
+                                                        <option value="7650000">$7,650,000</option>
+                                                        <option value="7700000">$7,700,000</option>
+                                                        <option value="7750000">$7,750,000</option>
+                                                        <option value="7800000">$7,800,000</option>
+                                                        <option value="7850000">$7,850,000</option>
+                                                        <option value="7900000">$7,900,000</option>
+                                                        <option value="7950000">$7,950,000</option>
+                                                        <option value="8000000">$8,000,000</option>
+                                                        <option value="8050000">$8,050,000</option>
+                                                        <option value="8100000">$8,100,000</option>
+                                                        <option value="8150000">$8,150,000</option>
+                                                        <option value="8200000">$8,200,000</option>
+                                                        <option value="8250000">$8,250,000</option>
+                                                        <option value="8300000">$8,300,000</option>
+                                                        <option value="8350000">$8,350,000</option>
+                                                        <option value="8400000">$8,400,000</option>
+                                                        <option value="8450000">$8,450,000</option>
+                                                        <option value="8500000">$8,500,000</option>
+                                                        <option value="8550000">$8,550,000</option>
+                                                        <option value="8600000">$8,600,000</option>
+                                                        <option value="8650000">$8,650,000</option>
+                                                        <option value="8700000">$8,700,000</option>
+                                                        <option value="8750000">$8,750,000</option>
+                                                        <option value="8800000">$8,800,000</option>
+                                                        <option value="8850000">$8,850,000</option>
+                                                        <option value="8900000">$8,900,000</option>
+                                                        <option value="8950000">$8,950,000</option>
+                                                        <option value="9000000">$9,000,000</option>
+                                                        <option value="9050000">$9,050,000</option>
+                                                        <option value="9100000">$9,100,000</option>
+                                                        <option value="9150000">$9,150,000</option>
+                                                        <option value="9200000">$9,200,000</option>
+                                                        <option value="9250000">$9,250,000</option>
+                                                        <option value="9300000">$9,300,000</option>
+                                                        <option value="9350000">$9,350,000</option>
+                                                        <option value="9400000">$9,400,000</option>
+                                                        <option value="9450000">$9,450,000</option>
+                                                        <option value="9500000">$9,500,000</option>
+                                                        <option value="9550000">$9,550,000</option>
+                                                        <option value="9600000">$9,600,000</option>
+                                                        <option value="9650000">$9,650,000</option>
+                                                        <option value="9700000">$9,700,000</option>
+                                                        <option value="9750000">$9,750,000</option>
+                                                        <option value="9800000">$9,800,000</option>
+                                                        <option value="9850000">$9,850,000</option>
+                                                        <option value="9900000">$9,900,000</option>
+                                                        <option value="9950000">$9,950,000</option>
+                                                        <option value="10000000">$10,000,000</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_bedrooms_min fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Bedrooms Min </label>
+												<div class="field">
+													<select name="property_bedrooms_min" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                        <option value="4">4 +</option>
+                                                        <option value="5">5 +</option>
+                                                        <option value="6">6 +</option>
+                                                        <option value="7">7 +</option>
+                                                        <option value="8">8 +</option>
+                                                        <option value="9">9 +</option>
+                                                        <option value="10">10 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_bedrooms_max fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Bedrooms Max </label>
+												<div class="field">
+													<select name="property_bedrooms_max" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                        <option value="4">4 +</option>
+                                                        <option value="5">5 +</option>
+                                                        <option value="6">6 +</option>
+                                                        <option value="7">7 +</option>
+                                                        <option value="8">8 +</option>
+                                                        <option value="9">9 +</option>
+                                                        <option value="10">10 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_bathrooms fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Bathrooms </label>
+												<div class="field">
+													<select name="property_bathrooms" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_carport fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Car Spaces </label>
+												<div class="field">
+													<select name="property_carport" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-other"> <span class="epl-search-row epl-search-row-checkbox epl-search-row-half">
+                                                            <input type="checkbox" name="property_air_conditioning" id="kv-1" class="in-field">
+                                                            <label for="kv-1" class="check-label"><span></span> Air Conditioning
+												</label>
+												</span> <span class="epl-search-row epl-search-row-checkbox epl-search-row-half">
+                                                            <input type="checkbox" name="property_pool" class="in-field" id="kv-2">
+                                                            <label for="kv-2" class="check-label"><span></span> Pool </label>
+												</span> <span class="epl-search-row epl-search-row-checkbox epl-search-row-half">
+                                                            <input type="checkbox" name="property_security_system" id="kv-3" class="in-field">
+                                                            <label for="kv-3" class="check-label"><span></span> Security
+												</label>
+												</span>
+											</div>
+											<div class="epl-search-submit-row epl-search-submit property-type-search">
+												<input type="submit" value="Find me a Property!" class="epl-search-btn">
+											</div>
+										</form>
+									</div>
+									<div class="epl-search-form" id="epl_ps_tab_2">
+										<form method="get" action="https://easypropertylistings.com.au/demo/">
+											<input type="hidden" name="action" value="epl_search">
+											<input type="hidden" class="in-field field-width" name="post_type" value="property">
+											<input type="hidden" class="in-field field-width" name="property_status" value="">
+											<div class="epl-search-row epl-search-row-text epl-property_id fm-block epl-search-row-full">
+												<label class="epl-search-label fm-label">
+                                                    Search by Property ID / Address </label>
+												<div class="field">
+													<input type="text" class="in-field field-width" name="property_id" value="">
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_location fm-block epl-search-row-full">
+												<label class="epl-search-label fm-label">
+                                                    Suburb </label>
+												<div class="field">
+													<select name="property_location" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="22">Brisbane</option>
+                                                        <option value="3">Perth</option>
+                                                        <option value="11">Sorrento</option>
+                                                        <option value="21">Sydney</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_category fm-block epl-search-row-full">
+												<label class="epl-search-label fm-label">
+                                                    House Category </label>
+												<div class="field">
+													<select name="property_category" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="House">House</option>
+                                                        <option value="Unit">Unit</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_price_from fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Price From </label>
+												<div class="field">
+													<select name="property_price_from" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="50000">$50,000</option>
+                                                        <option value="100000">$100,000</option>
+                                                        <option value="150000">$150,000</option>
+                                                        <option value="200000">$200,000</option>
+                                                        <option value="250000">$250,000</option>
+                                                        <option value="300000">$300,000</option>
+                                                        <option value="350000">$350,000</option>
+                                                        <option value="400000">$400,000</option>
+                                                        <option value="450000">$450,000</option>
+                                                        <option value="500000">$500,000</option>
+                                                        <option value="550000">$550,000</option>
+                                                        <option value="600000">$600,000</option>
+                                                        <option value="650000">$650,000</option>
+                                                        <option value="700000">$700,000</option>
+                                                        <option value="750000">$750,000</option>
+                                                        <option value="800000">$800,000</option>
+                                                        <option value="850000">$850,000</option>
+                                                        <option value="900000">$900,000</option>
+                                                        <option value="950000">$950,000</option>
+                                                        <option value="1000000">$1,000,000</option>
+                                                        <option value="1050000">$1,050,000</option>
+                                                        <option value="1100000">$1,100,000</option>
+                                                        <option value="1150000">$1,150,000</option>
+                                                        <option value="1200000">$1,200,000</option>
+                                                        <option value="1250000">$1,250,000</option>
+                                                        <option value="1300000">$1,300,000</option>
+                                                        <option value="1350000">$1,350,000</option>
+                                                        <option value="1400000">$1,400,000</option>
+                                                        <option value="1450000">$1,450,000</option>
+                                                        <option value="1500000">$1,500,000</option>
+                                                        <option value="1550000">$1,550,000</option>
+                                                        <option value="1600000">$1,600,000</option>
+                                                        <option value="1650000">$1,650,000</option>
+                                                        <option value="1700000">$1,700,000</option>
+                                                        <option value="1750000">$1,750,000</option>
+                                                        <option value="1800000">$1,800,000</option>
+                                                        <option value="1850000">$1,850,000</option>
+                                                        <option value="1900000">$1,900,000</option>
+                                                        <option value="1950000">$1,950,000</option>
+                                                        <option value="2000000">$2,000,000</option>
+                                                        <option value="2050000">$2,050,000</option>
+                                                        <option value="2100000">$2,100,000</option>
+                                                        <option value="2150000">$2,150,000</option>
+                                                        <option value="2200000">$2,200,000</option>
+                                                        <option value="2250000">$2,250,000</option>
+                                                        <option value="2300000">$2,300,000</option>
+                                                        <option value="2350000">$2,350,000</option>
+                                                        <option value="2400000">$2,400,000</option>
+                                                        <option value="2450000">$2,450,000</option>
+                                                        <option value="2500000">$2,500,000</option>
+                                                        <option value="2550000">$2,550,000</option>
+                                                        <option value="2600000">$2,600,000</option>
+                                                        <option value="2650000">$2,650,000</option>
+                                                        <option value="2700000">$2,700,000</option>
+                                                        <option value="2750000">$2,750,000</option>
+                                                        <option value="2800000">$2,800,000</option>
+                                                        <option value="2850000">$2,850,000</option>
+                                                        <option value="2900000">$2,900,000</option>
+                                                        <option value="2950000">$2,950,000</option>
+                                                        <option value="3000000">$3,000,000</option>
+                                                        <option value="3050000">$3,050,000</option>
+                                                        <option value="3100000">$3,100,000</option>
+                                                        <option value="3150000">$3,150,000</option>
+                                                        <option value="3200000">$3,200,000</option>
+                                                        <option value="3250000">$3,250,000</option>
+                                                        <option value="3300000">$3,300,000</option>
+                                                        <option value="3350000">$3,350,000</option>
+                                                        <option value="3400000">$3,400,000</option>
+                                                        <option value="3450000">$3,450,000</option>
+                                                        <option value="3500000">$3,500,000</option>
+                                                        <option value="3550000">$3,550,000</option>
+                                                        <option value="3600000">$3,600,000</option>
+                                                        <option value="3650000">$3,650,000</option>
+                                                        <option value="3700000">$3,700,000</option>
+                                                        <option value="3750000">$3,750,000</option>
+                                                        <option value="3800000">$3,800,000</option>
+                                                        <option value="3850000">$3,850,000</option>
+                                                        <option value="3900000">$3,900,000</option>
+                                                        <option value="3950000">$3,950,000</option>
+                                                        <option value="4000000">$4,000,000</option>
+                                                        <option value="4050000">$4,050,000</option>
+                                                        <option value="4100000">$4,100,000</option>
+                                                        <option value="4150000">$4,150,000</option>
+                                                        <option value="4200000">$4,200,000</option>
+                                                        <option value="4250000">$4,250,000</option>
+                                                        <option value="4300000">$4,300,000</option>
+                                                        <option value="4350000">$4,350,000</option>
+                                                        <option value="4400000">$4,400,000</option>
+                                                        <option value="4450000">$4,450,000</option>
+                                                        <option value="4500000">$4,500,000</option>
+                                                        <option value="4550000">$4,550,000</option>
+                                                        <option value="4600000">$4,600,000</option>
+                                                        <option value="4650000">$4,650,000</option>
+                                                        <option value="4700000">$4,700,000</option>
+                                                        <option value="4750000">$4,750,000</option>
+                                                        <option value="4800000">$4,800,000</option>
+                                                        <option value="4850000">$4,850,000</option>
+                                                        <option value="4900000">$4,900,000</option>
+                                                        <option value="4950000">$4,950,000</option>
+                                                        <option value="5000000">$5,000,000</option>
+                                                        <option value="5050000">$5,050,000</option>
+                                                        <option value="5100000">$5,100,000</option>
+                                                        <option value="5150000">$5,150,000</option>
+                                                        <option value="5200000">$5,200,000</option>
+                                                        <option value="5250000">$5,250,000</option>
+                                                        <option value="5300000">$5,300,000</option>
+                                                        <option value="5350000">$5,350,000</option>
+                                                        <option value="5400000">$5,400,000</option>
+                                                        <option value="5450000">$5,450,000</option>
+                                                        <option value="5500000">$5,500,000</option>
+                                                        <option value="5550000">$5,550,000</option>
+                                                        <option value="5600000">$5,600,000</option>
+                                                        <option value="5650000">$5,650,000</option>
+                                                        <option value="5700000">$5,700,000</option>
+                                                        <option value="5750000">$5,750,000</option>
+                                                        <option value="5800000">$5,800,000</option>
+                                                        <option value="5850000">$5,850,000</option>
+                                                        <option value="5900000">$5,900,000</option>
+                                                        <option value="5950000">$5,950,000</option>
+                                                        <option value="6000000">$6,000,000</option>
+                                                        <option value="6050000">$6,050,000</option>
+                                                        <option value="6100000">$6,100,000</option>
+                                                        <option value="6150000">$6,150,000</option>
+                                                        <option value="6200000">$6,200,000</option>
+                                                        <option value="6250000">$6,250,000</option>
+                                                        <option value="6300000">$6,300,000</option>
+                                                        <option value="6350000">$6,350,000</option>
+                                                        <option value="6400000">$6,400,000</option>
+                                                        <option value="6450000">$6,450,000</option>
+                                                        <option value="6500000">$6,500,000</option>
+                                                        <option value="6550000">$6,550,000</option>
+                                                        <option value="6600000">$6,600,000</option>
+                                                        <option value="6650000">$6,650,000</option>
+                                                        <option value="6700000">$6,700,000</option>
+                                                        <option value="6750000">$6,750,000</option>
+                                                        <option value="6800000">$6,800,000</option>
+                                                        <option value="6850000">$6,850,000</option>
+                                                        <option value="6900000">$6,900,000</option>
+                                                        <option value="6950000">$6,950,000</option>
+                                                        <option value="7000000">$7,000,000</option>
+                                                        <option value="7050000">$7,050,000</option>
+                                                        <option value="7100000">$7,100,000</option>
+                                                        <option value="7150000">$7,150,000</option>
+                                                        <option value="7200000">$7,200,000</option>
+                                                        <option value="7250000">$7,250,000</option>
+                                                        <option value="7300000">$7,300,000</option>
+                                                        <option value="7350000">$7,350,000</option>
+                                                        <option value="7400000">$7,400,000</option>
+                                                        <option value="7450000">$7,450,000</option>
+                                                        <option value="7500000">$7,500,000</option>
+                                                        <option value="7550000">$7,550,000</option>
+                                                        <option value="7600000">$7,600,000</option>
+                                                        <option value="7650000">$7,650,000</option>
+                                                        <option value="7700000">$7,700,000</option>
+                                                        <option value="7750000">$7,750,000</option>
+                                                        <option value="7800000">$7,800,000</option>
+                                                        <option value="7850000">$7,850,000</option>
+                                                        <option value="7900000">$7,900,000</option>
+                                                        <option value="7950000">$7,950,000</option>
+                                                        <option value="8000000">$8,000,000</option>
+                                                        <option value="8050000">$8,050,000</option>
+                                                        <option value="8100000">$8,100,000</option>
+                                                        <option value="8150000">$8,150,000</option>
+                                                        <option value="8200000">$8,200,000</option>
+                                                        <option value="8250000">$8,250,000</option>
+                                                        <option value="8300000">$8,300,000</option>
+                                                        <option value="8350000">$8,350,000</option>
+                                                        <option value="8400000">$8,400,000</option>
+                                                        <option value="8450000">$8,450,000</option>
+                                                        <option value="8500000">$8,500,000</option>
+                                                        <option value="8550000">$8,550,000</option>
+                                                        <option value="8600000">$8,600,000</option>
+                                                        <option value="8650000">$8,650,000</option>
+                                                        <option value="8700000">$8,700,000</option>
+                                                        <option value="8750000">$8,750,000</option>
+                                                        <option value="8800000">$8,800,000</option>
+                                                        <option value="8850000">$8,850,000</option>
+                                                        <option value="8900000">$8,900,000</option>
+                                                        <option value="8950000">$8,950,000</option>
+                                                        <option value="9000000">$9,000,000</option>
+                                                        <option value="9050000">$9,050,000</option>
+                                                        <option value="9100000">$9,100,000</option>
+                                                        <option value="9150000">$9,150,000</option>
+                                                        <option value="9200000">$9,200,000</option>
+                                                        <option value="9250000">$9,250,000</option>
+                                                        <option value="9300000">$9,300,000</option>
+                                                        <option value="9350000">$9,350,000</option>
+                                                        <option value="9400000">$9,400,000</option>
+                                                        <option value="9450000">$9,450,000</option>
+                                                        <option value="9500000">$9,500,000</option>
+                                                        <option value="9550000">$9,550,000</option>
+                                                        <option value="9600000">$9,600,000</option>
+                                                        <option value="9650000">$9,650,000</option>
+                                                        <option value="9700000">$9,700,000</option>
+                                                        <option value="9750000">$9,750,000</option>
+                                                        <option value="9800000">$9,800,000</option>
+                                                        <option value="9850000">$9,850,000</option>
+                                                        <option value="9900000">$9,900,000</option>
+                                                        <option value="9950000">$9,950,000</option>
+                                                        <option value="10000000">$10,000,000</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_price_to fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Price To </label>
+												<div class="field">
+													<select name="property_price_to" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="50000">$50,000</option>
+                                                        <option value="100000">$100,000</option>
+                                                        <option value="150000">$150,000</option>
+                                                        <option value="200000">$200,000</option>
+                                                        <option value="250000">$250,000</option>
+                                                        <option value="300000">$300,000</option>
+                                                        <option value="350000">$350,000</option>
+                                                        <option value="400000">$400,000</option>
+                                                        <option value="450000">$450,000</option>
+                                                        <option value="500000">$500,000</option>
+                                                        <option value="550000">$550,000</option>
+                                                        <option value="600000">$600,000</option>
+                                                        <option value="650000">$650,000</option>
+                                                        <option value="700000">$700,000</option>
+                                                        <option value="750000">$750,000</option>
+                                                        <option value="800000">$800,000</option>
+                                                        <option value="850000">$850,000</option>
+                                                        <option value="900000">$900,000</option>
+                                                        <option value="950000">$950,000</option>
+                                                        <option value="1000000">$1,000,000</option>
+                                                        <option value="1050000">$1,050,000</option>
+                                                        <option value="1100000">$1,100,000</option>
+                                                        <option value="1150000">$1,150,000</option>
+                                                        <option value="1200000">$1,200,000</option>
+                                                        <option value="1250000">$1,250,000</option>
+                                                        <option value="1300000">$1,300,000</option>
+                                                        <option value="1350000">$1,350,000</option>
+                                                        <option value="1400000">$1,400,000</option>
+                                                        <option value="1450000">$1,450,000</option>
+                                                        <option value="1500000">$1,500,000</option>
+                                                        <option value="1550000">$1,550,000</option>
+                                                        <option value="1600000">$1,600,000</option>
+                                                        <option value="1650000">$1,650,000</option>
+                                                        <option value="1700000">$1,700,000</option>
+                                                        <option value="1750000">$1,750,000</option>
+                                                        <option value="1800000">$1,800,000</option>
+                                                        <option value="1850000">$1,850,000</option>
+                                                        <option value="1900000">$1,900,000</option>
+                                                        <option value="1950000">$1,950,000</option>
+                                                        <option value="2000000">$2,000,000</option>
+                                                        <option value="2050000">$2,050,000</option>
+                                                        <option value="2100000">$2,100,000</option>
+                                                        <option value="2150000">$2,150,000</option>
+                                                        <option value="2200000">$2,200,000</option>
+                                                        <option value="2250000">$2,250,000</option>
+                                                        <option value="2300000">$2,300,000</option>
+                                                        <option value="2350000">$2,350,000</option>
+                                                        <option value="2400000">$2,400,000</option>
+                                                        <option value="2450000">$2,450,000</option>
+                                                        <option value="2500000">$2,500,000</option>
+                                                        <option value="2550000">$2,550,000</option>
+                                                        <option value="2600000">$2,600,000</option>
+                                                        <option value="2650000">$2,650,000</option>
+                                                        <option value="2700000">$2,700,000</option>
+                                                        <option value="2750000">$2,750,000</option>
+                                                        <option value="2800000">$2,800,000</option>
+                                                        <option value="2850000">$2,850,000</option>
+                                                        <option value="2900000">$2,900,000</option>
+                                                        <option value="2950000">$2,950,000</option>
+                                                        <option value="3000000">$3,000,000</option>
+                                                        <option value="3050000">$3,050,000</option>
+                                                        <option value="3100000">$3,100,000</option>
+                                                        <option value="3150000">$3,150,000</option>
+                                                        <option value="3200000">$3,200,000</option>
+                                                        <option value="3250000">$3,250,000</option>
+                                                        <option value="3300000">$3,300,000</option>
+                                                        <option value="3350000">$3,350,000</option>
+                                                        <option value="3400000">$3,400,000</option>
+                                                        <option value="3450000">$3,450,000</option>
+                                                        <option value="3500000">$3,500,000</option>
+                                                        <option value="3550000">$3,550,000</option>
+                                                        <option value="3600000">$3,600,000</option>
+                                                        <option value="3650000">$3,650,000</option>
+                                                        <option value="3700000">$3,700,000</option>
+                                                        <option value="3750000">$3,750,000</option>
+                                                        <option value="3800000">$3,800,000</option>
+                                                        <option value="3850000">$3,850,000</option>
+                                                        <option value="3900000">$3,900,000</option>
+                                                        <option value="3950000">$3,950,000</option>
+                                                        <option value="4000000">$4,000,000</option>
+                                                        <option value="4050000">$4,050,000</option>
+                                                        <option value="4100000">$4,100,000</option>
+                                                        <option value="4150000">$4,150,000</option>
+                                                        <option value="4200000">$4,200,000</option>
+                                                        <option value="4250000">$4,250,000</option>
+                                                        <option value="4300000">$4,300,000</option>
+                                                        <option value="4350000">$4,350,000</option>
+                                                        <option value="4400000">$4,400,000</option>
+                                                        <option value="4450000">$4,450,000</option>
+                                                        <option value="4500000">$4,500,000</option>
+                                                        <option value="4550000">$4,550,000</option>
+                                                        <option value="4600000">$4,600,000</option>
+                                                        <option value="4650000">$4,650,000</option>
+                                                        <option value="4700000">$4,700,000</option>
+                                                        <option value="4750000">$4,750,000</option>
+                                                        <option value="4800000">$4,800,000</option>
+                                                        <option value="4850000">$4,850,000</option>
+                                                        <option value="4900000">$4,900,000</option>
+                                                        <option value="4950000">$4,950,000</option>
+                                                        <option value="5000000">$5,000,000</option>
+                                                        <option value="5050000">$5,050,000</option>
+                                                        <option value="5100000">$5,100,000</option>
+                                                        <option value="5150000">$5,150,000</option>
+                                                        <option value="5200000">$5,200,000</option>
+                                                        <option value="5250000">$5,250,000</option>
+                                                        <option value="5300000">$5,300,000</option>
+                                                        <option value="5350000">$5,350,000</option>
+                                                        <option value="5400000">$5,400,000</option>
+                                                        <option value="5450000">$5,450,000</option>
+                                                        <option value="5500000">$5,500,000</option>
+                                                        <option value="5550000">$5,550,000</option>
+                                                        <option value="5600000">$5,600,000</option>
+                                                        <option value="5650000">$5,650,000</option>
+                                                        <option value="5700000">$5,700,000</option>
+                                                        <option value="5750000">$5,750,000</option>
+                                                        <option value="5800000">$5,800,000</option>
+                                                        <option value="5850000">$5,850,000</option>
+                                                        <option value="5900000">$5,900,000</option>
+                                                        <option value="5950000">$5,950,000</option>
+                                                        <option value="6000000">$6,000,000</option>
+                                                        <option value="6050000">$6,050,000</option>
+                                                        <option value="6100000">$6,100,000</option>
+                                                        <option value="6150000">$6,150,000</option>
+                                                        <option value="6200000">$6,200,000</option>
+                                                        <option value="6250000">$6,250,000</option>
+                                                        <option value="6300000">$6,300,000</option>
+                                                        <option value="6350000">$6,350,000</option>
+                                                        <option value="6400000">$6,400,000</option>
+                                                        <option value="6450000">$6,450,000</option>
+                                                        <option value="6500000">$6,500,000</option>
+                                                        <option value="6550000">$6,550,000</option>
+                                                        <option value="6600000">$6,600,000</option>
+                                                        <option value="6650000">$6,650,000</option>
+                                                        <option value="6700000">$6,700,000</option>
+                                                        <option value="6750000">$6,750,000</option>
+                                                        <option value="6800000">$6,800,000</option>
+                                                        <option value="6850000">$6,850,000</option>
+                                                        <option value="6900000">$6,900,000</option>
+                                                        <option value="6950000">$6,950,000</option>
+                                                        <option value="7000000">$7,000,000</option>
+                                                        <option value="7050000">$7,050,000</option>
+                                                        <option value="7100000">$7,100,000</option>
+                                                        <option value="7150000">$7,150,000</option>
+                                                        <option value="7200000">$7,200,000</option>
+                                                        <option value="7250000">$7,250,000</option>
+                                                        <option value="7300000">$7,300,000</option>
+                                                        <option value="7350000">$7,350,000</option>
+                                                        <option value="7400000">$7,400,000</option>
+                                                        <option value="7450000">$7,450,000</option>
+                                                        <option value="7500000">$7,500,000</option>
+                                                        <option value="7550000">$7,550,000</option>
+                                                        <option value="7600000">$7,600,000</option>
+                                                        <option value="7650000">$7,650,000</option>
+                                                        <option value="7700000">$7,700,000</option>
+                                                        <option value="7750000">$7,750,000</option>
+                                                        <option value="7800000">$7,800,000</option>
+                                                        <option value="7850000">$7,850,000</option>
+                                                        <option value="7900000">$7,900,000</option>
+                                                        <option value="7950000">$7,950,000</option>
+                                                        <option value="8000000">$8,000,000</option>
+                                                        <option value="8050000">$8,050,000</option>
+                                                        <option value="8100000">$8,100,000</option>
+                                                        <option value="8150000">$8,150,000</option>
+                                                        <option value="8200000">$8,200,000</option>
+                                                        <option value="8250000">$8,250,000</option>
+                                                        <option value="8300000">$8,300,000</option>
+                                                        <option value="8350000">$8,350,000</option>
+                                                        <option value="8400000">$8,400,000</option>
+                                                        <option value="8450000">$8,450,000</option>
+                                                        <option value="8500000">$8,500,000</option>
+                                                        <option value="8550000">$8,550,000</option>
+                                                        <option value="8600000">$8,600,000</option>
+                                                        <option value="8650000">$8,650,000</option>
+                                                        <option value="8700000">$8,700,000</option>
+                                                        <option value="8750000">$8,750,000</option>
+                                                        <option value="8800000">$8,800,000</option>
+                                                        <option value="8850000">$8,850,000</option>
+                                                        <option value="8900000">$8,900,000</option>
+                                                        <option value="8950000">$8,950,000</option>
+                                                        <option value="9000000">$9,000,000</option>
+                                                        <option value="9050000">$9,050,000</option>
+                                                        <option value="9100000">$9,100,000</option>
+                                                        <option value="9150000">$9,150,000</option>
+                                                        <option value="9200000">$9,200,000</option>
+                                                        <option value="9250000">$9,250,000</option>
+                                                        <option value="9300000">$9,300,000</option>
+                                                        <option value="9350000">$9,350,000</option>
+                                                        <option value="9400000">$9,400,000</option>
+                                                        <option value="9450000">$9,450,000</option>
+                                                        <option value="9500000">$9,500,000</option>
+                                                        <option value="9550000">$9,550,000</option>
+                                                        <option value="9600000">$9,600,000</option>
+                                                        <option value="9650000">$9,650,000</option>
+                                                        <option value="9700000">$9,700,000</option>
+                                                        <option value="9750000">$9,750,000</option>
+                                                        <option value="9800000">$9,800,000</option>
+                                                        <option value="9850000">$9,850,000</option>
+                                                        <option value="9900000">$9,900,000</option>
+                                                        <option value="9950000">$9,950,000</option>
+                                                        <option value="10000000">$10,000,000</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_bedrooms_min fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Bedrooms Min </label>
+												<div class="field">
+													<select name="property_bedrooms_min" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                        <option value="4">4 +</option>
+                                                        <option value="5">5 +</option>
+                                                        <option value="6">6 +</option>
+                                                        <option value="7">7 +</option>
+                                                        <option value="8">8 +</option>
+                                                        <option value="9">9 +</option>
+                                                        <option value="10">10 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_bedrooms_max fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Bedrooms Max </label>
+												<div class="field">
+													<select name="property_bedrooms_max" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                        <option value="4">4 +</option>
+                                                        <option value="5">5 +</option>
+                                                        <option value="6">6 +</option>
+                                                        <option value="7">7 +</option>
+                                                        <option value="8">8 +</option>
+                                                        <option value="9">9 +</option>
+                                                        <option value="10">10 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_bathrooms fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Bathrooms </label>
+												<div class="field">
+													<select name="property_bathrooms" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_carport fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Car Spaces </label>
+												<div class="field">
+													<select name="property_carport" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-other"> <span class="epl-search-row epl-search-row-checkbox epl-search-row-half">
+                                                            <input type="checkbox" name="property_air_conditioning" id="kv-4" class="in-field">
+                                                            <label for="kv-4" class="check-label"><span></span> Air Conditioning
+												</label>
+												</span> <span class="epl-search-row epl-search-row-checkbox epl-search-row-half">
+                                                            <input type="checkbox" name="property_pool" class="in-field" id="kv-5">
+                                                            <label for="kv-5" class="check-label"><span></span> Pool </label>
+												</span> <span class="epl-search-row epl-search-row-checkbox epl-search-row-half">
+                                                            <input type="checkbox" name="property_security_system" id="kv-6" class="in-field">
+                                                            <label for="kv-6" class="check-label"><span></span> Security
+												</label>
+												</span>
+											</div>
+											<div class="epl-search-submit-row epl-search-submit property-type-search">
+												<input type="submit" value="Find me a Property!" class="epl-search-btn">
+											</div>
+										</form>
+									</div>
+									<div class="epl-search-form" id="epl_ps_tab_3">
+										<form method="get" action="https://easypropertylistings.com.au/demo/">
+											<input type="hidden" name="action" value="epl_search">
+											<input type="hidden" class="in-field field-width" name="post_type" value="property">
+											<input type="hidden" class="in-field field-width" name="property_status" value="">
+											<div class="epl-search-row epl-search-row-text epl-property_id fm-block epl-search-row-full">
+												<label class="epl-search-label fm-label">
+                                                    Search by Property ID / Address </label>
+												<div class="field">
+													<input type="text" class="in-field field-width" name="property_id" value="">
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_location fm-block epl-search-row-full">
+												<label class="epl-search-label fm-label">
+                                                    Suburb </label>
+												<div class="field">
+													<select name="property_location" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="22">Brisbane</option>
+                                                        <option value="3">Perth</option>
+                                                        <option value="11">Sorrento</option>
+                                                        <option value="21">Sydney</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_category fm-block epl-search-row-full">
+												<label class="epl-search-label fm-label">
+                                                    House Category </label>
+												<div class="field">
+													<select name="property_category" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="House">House</option>
+                                                        <option value="Unit">Unit</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_price_from fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Price From </label>
+												<div class="field">
+													<select name="property_price_from" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="50000">$50,000</option>
+                                                        <option value="100000">$100,000</option>
+                                                        <option value="150000">$150,000</option>
+                                                        <option value="200000">$200,000</option>
+                                                        <option value="250000">$250,000</option>
+                                                        <option value="300000">$300,000</option>
+                                                        <option value="350000">$350,000</option>
+                                                        <option value="400000">$400,000</option>
+                                                        <option value="450000">$450,000</option>
+                                                        <option value="500000">$500,000</option>
+                                                        <option value="550000">$550,000</option>
+                                                        <option value="600000">$600,000</option>
+                                                        <option value="650000">$650,000</option>
+                                                        <option value="700000">$700,000</option>
+                                                        <option value="750000">$750,000</option>
+                                                        <option value="800000">$800,000</option>
+                                                        <option value="850000">$850,000</option>
+                                                        <option value="900000">$900,000</option>
+                                                        <option value="950000">$950,000</option>
+                                                        <option value="1000000">$1,000,000</option>
+                                                        <option value="1050000">$1,050,000</option>
+                                                        <option value="1100000">$1,100,000</option>
+                                                        <option value="1150000">$1,150,000</option>
+                                                        <option value="1200000">$1,200,000</option>
+                                                        <option value="1250000">$1,250,000</option>
+                                                        <option value="1300000">$1,300,000</option>
+                                                        <option value="1350000">$1,350,000</option>
+                                                        <option value="1400000">$1,400,000</option>
+                                                        <option value="1450000">$1,450,000</option>
+                                                        <option value="1500000">$1,500,000</option>
+                                                        <option value="1550000">$1,550,000</option>
+                                                        <option value="1600000">$1,600,000</option>
+                                                        <option value="1650000">$1,650,000</option>
+                                                        <option value="1700000">$1,700,000</option>
+                                                        <option value="1750000">$1,750,000</option>
+                                                        <option value="1800000">$1,800,000</option>
+                                                        <option value="1850000">$1,850,000</option>
+                                                        <option value="1900000">$1,900,000</option>
+                                                        <option value="1950000">$1,950,000</option>
+                                                        <option value="2000000">$2,000,000</option>
+                                                        <option value="2050000">$2,050,000</option>
+                                                        <option value="2100000">$2,100,000</option>
+                                                        <option value="2150000">$2,150,000</option>
+                                                        <option value="2200000">$2,200,000</option>
+                                                        <option value="2250000">$2,250,000</option>
+                                                        <option value="2300000">$2,300,000</option>
+                                                        <option value="2350000">$2,350,000</option>
+                                                        <option value="2400000">$2,400,000</option>
+                                                        <option value="2450000">$2,450,000</option>
+                                                        <option value="2500000">$2,500,000</option>
+                                                        <option value="2550000">$2,550,000</option>
+                                                        <option value="2600000">$2,600,000</option>
+                                                        <option value="2650000">$2,650,000</option>
+                                                        <option value="2700000">$2,700,000</option>
+                                                        <option value="2750000">$2,750,000</option>
+                                                        <option value="2800000">$2,800,000</option>
+                                                        <option value="2850000">$2,850,000</option>
+                                                        <option value="2900000">$2,900,000</option>
+                                                        <option value="2950000">$2,950,000</option>
+                                                        <option value="3000000">$3,000,000</option>
+                                                        <option value="3050000">$3,050,000</option>
+                                                        <option value="3100000">$3,100,000</option>
+                                                        <option value="3150000">$3,150,000</option>
+                                                        <option value="3200000">$3,200,000</option>
+                                                        <option value="3250000">$3,250,000</option>
+                                                        <option value="3300000">$3,300,000</option>
+                                                        <option value="3350000">$3,350,000</option>
+                                                        <option value="3400000">$3,400,000</option>
+                                                        <option value="3450000">$3,450,000</option>
+                                                        <option value="3500000">$3,500,000</option>
+                                                        <option value="3550000">$3,550,000</option>
+                                                        <option value="3600000">$3,600,000</option>
+                                                        <option value="3650000">$3,650,000</option>
+                                                        <option value="3700000">$3,700,000</option>
+                                                        <option value="3750000">$3,750,000</option>
+                                                        <option value="3800000">$3,800,000</option>
+                                                        <option value="3850000">$3,850,000</option>
+                                                        <option value="3900000">$3,900,000</option>
+                                                        <option value="3950000">$3,950,000</option>
+                                                        <option value="4000000">$4,000,000</option>
+                                                        <option value="4050000">$4,050,000</option>
+                                                        <option value="4100000">$4,100,000</option>
+                                                        <option value="4150000">$4,150,000</option>
+                                                        <option value="4200000">$4,200,000</option>
+                                                        <option value="4250000">$4,250,000</option>
+                                                        <option value="4300000">$4,300,000</option>
+                                                        <option value="4350000">$4,350,000</option>
+                                                        <option value="4400000">$4,400,000</option>
+                                                        <option value="4450000">$4,450,000</option>
+                                                        <option value="4500000">$4,500,000</option>
+                                                        <option value="4550000">$4,550,000</option>
+                                                        <option value="4600000">$4,600,000</option>
+                                                        <option value="4650000">$4,650,000</option>
+                                                        <option value="4700000">$4,700,000</option>
+                                                        <option value="4750000">$4,750,000</option>
+                                                        <option value="4800000">$4,800,000</option>
+                                                        <option value="4850000">$4,850,000</option>
+                                                        <option value="4900000">$4,900,000</option>
+                                                        <option value="4950000">$4,950,000</option>
+                                                        <option value="5000000">$5,000,000</option>
+                                                        <option value="5050000">$5,050,000</option>
+                                                        <option value="5100000">$5,100,000</option>
+                                                        <option value="5150000">$5,150,000</option>
+                                                        <option value="5200000">$5,200,000</option>
+                                                        <option value="5250000">$5,250,000</option>
+                                                        <option value="5300000">$5,300,000</option>
+                                                        <option value="5350000">$5,350,000</option>
+                                                        <option value="5400000">$5,400,000</option>
+                                                        <option value="5450000">$5,450,000</option>
+                                                        <option value="5500000">$5,500,000</option>
+                                                        <option value="5550000">$5,550,000</option>
+                                                        <option value="5600000">$5,600,000</option>
+                                                        <option value="5650000">$5,650,000</option>
+                                                        <option value="5700000">$5,700,000</option>
+                                                        <option value="5750000">$5,750,000</option>
+                                                        <option value="5800000">$5,800,000</option>
+                                                        <option value="5850000">$5,850,000</option>
+                                                        <option value="5900000">$5,900,000</option>
+                                                        <option value="5950000">$5,950,000</option>
+                                                        <option value="6000000">$6,000,000</option>
+                                                        <option value="6050000">$6,050,000</option>
+                                                        <option value="6100000">$6,100,000</option>
+                                                        <option value="6150000">$6,150,000</option>
+                                                        <option value="6200000">$6,200,000</option>
+                                                        <option value="6250000">$6,250,000</option>
+                                                        <option value="6300000">$6,300,000</option>
+                                                        <option value="6350000">$6,350,000</option>
+                                                        <option value="6400000">$6,400,000</option>
+                                                        <option value="6450000">$6,450,000</option>
+                                                        <option value="6500000">$6,500,000</option>
+                                                        <option value="6550000">$6,550,000</option>
+                                                        <option value="6600000">$6,600,000</option>
+                                                        <option value="6650000">$6,650,000</option>
+                                                        <option value="6700000">$6,700,000</option>
+                                                        <option value="6750000">$6,750,000</option>
+                                                        <option value="6800000">$6,800,000</option>
+                                                        <option value="6850000">$6,850,000</option>
+                                                        <option value="6900000">$6,900,000</option>
+                                                        <option value="6950000">$6,950,000</option>
+                                                        <option value="7000000">$7,000,000</option>
+                                                        <option value="7050000">$7,050,000</option>
+                                                        <option value="7100000">$7,100,000</option>
+                                                        <option value="7150000">$7,150,000</option>
+                                                        <option value="7200000">$7,200,000</option>
+                                                        <option value="7250000">$7,250,000</option>
+                                                        <option value="7300000">$7,300,000</option>
+                                                        <option value="7350000">$7,350,000</option>
+                                                        <option value="7400000">$7,400,000</option>
+                                                        <option value="7450000">$7,450,000</option>
+                                                        <option value="7500000">$7,500,000</option>
+                                                        <option value="7550000">$7,550,000</option>
+                                                        <option value="7600000">$7,600,000</option>
+                                                        <option value="7650000">$7,650,000</option>
+                                                        <option value="7700000">$7,700,000</option>
+                                                        <option value="7750000">$7,750,000</option>
+                                                        <option value="7800000">$7,800,000</option>
+                                                        <option value="7850000">$7,850,000</option>
+                                                        <option value="7900000">$7,900,000</option>
+                                                        <option value="7950000">$7,950,000</option>
+                                                        <option value="8000000">$8,000,000</option>
+                                                        <option value="8050000">$8,050,000</option>
+                                                        <option value="8100000">$8,100,000</option>
+                                                        <option value="8150000">$8,150,000</option>
+                                                        <option value="8200000">$8,200,000</option>
+                                                        <option value="8250000">$8,250,000</option>
+                                                        <option value="8300000">$8,300,000</option>
+                                                        <option value="8350000">$8,350,000</option>
+                                                        <option value="8400000">$8,400,000</option>
+                                                        <option value="8450000">$8,450,000</option>
+                                                        <option value="8500000">$8,500,000</option>
+                                                        <option value="8550000">$8,550,000</option>
+                                                        <option value="8600000">$8,600,000</option>
+                                                        <option value="8650000">$8,650,000</option>
+                                                        <option value="8700000">$8,700,000</option>
+                                                        <option value="8750000">$8,750,000</option>
+                                                        <option value="8800000">$8,800,000</option>
+                                                        <option value="8850000">$8,850,000</option>
+                                                        <option value="8900000">$8,900,000</option>
+                                                        <option value="8950000">$8,950,000</option>
+                                                        <option value="9000000">$9,000,000</option>
+                                                        <option value="9050000">$9,050,000</option>
+                                                        <option value="9100000">$9,100,000</option>
+                                                        <option value="9150000">$9,150,000</option>
+                                                        <option value="9200000">$9,200,000</option>
+                                                        <option value="9250000">$9,250,000</option>
+                                                        <option value="9300000">$9,300,000</option>
+                                                        <option value="9350000">$9,350,000</option>
+                                                        <option value="9400000">$9,400,000</option>
+                                                        <option value="9450000">$9,450,000</option>
+                                                        <option value="9500000">$9,500,000</option>
+                                                        <option value="9550000">$9,550,000</option>
+                                                        <option value="9600000">$9,600,000</option>
+                                                        <option value="9650000">$9,650,000</option>
+                                                        <option value="9700000">$9,700,000</option>
+                                                        <option value="9750000">$9,750,000</option>
+                                                        <option value="9800000">$9,800,000</option>
+                                                        <option value="9850000">$9,850,000</option>
+                                                        <option value="9900000">$9,900,000</option>
+                                                        <option value="9950000">$9,950,000</option>
+                                                        <option value="10000000">$10,000,000</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_price_to fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Price To </label>
+												<div class="field">
+													<select name="property_price_to" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="50000">$50,000</option>
+                                                        <option value="100000">$100,000</option>
+                                                        <option value="150000">$150,000</option>
+                                                        <option value="200000">$200,000</option>
+                                                        <option value="250000">$250,000</option>
+                                                        <option value="300000">$300,000</option>
+                                                        <option value="350000">$350,000</option>
+                                                        <option value="400000">$400,000</option>
+                                                        <option value="450000">$450,000</option>
+                                                        <option value="500000">$500,000</option>
+                                                        <option value="550000">$550,000</option>
+                                                        <option value="600000">$600,000</option>
+                                                        <option value="650000">$650,000</option>
+                                                        <option value="700000">$700,000</option>
+                                                        <option value="750000">$750,000</option>
+                                                        <option value="800000">$800,000</option>
+                                                        <option value="850000">$850,000</option>
+                                                        <option value="900000">$900,000</option>
+                                                        <option value="950000">$950,000</option>
+                                                        <option value="1000000">$1,000,000</option>
+                                                        <option value="1050000">$1,050,000</option>
+                                                        <option value="1100000">$1,100,000</option>
+                                                        <option value="1150000">$1,150,000</option>
+                                                        <option value="1200000">$1,200,000</option>
+                                                        <option value="1250000">$1,250,000</option>
+                                                        <option value="1300000">$1,300,000</option>
+                                                        <option value="1350000">$1,350,000</option>
+                                                        <option value="1400000">$1,400,000</option>
+                                                        <option value="1450000">$1,450,000</option>
+                                                        <option value="1500000">$1,500,000</option>
+                                                        <option value="1550000">$1,550,000</option>
+                                                        <option value="1600000">$1,600,000</option>
+                                                        <option value="1650000">$1,650,000</option>
+                                                        <option value="1700000">$1,700,000</option>
+                                                        <option value="1750000">$1,750,000</option>
+                                                        <option value="1800000">$1,800,000</option>
+                                                        <option value="1850000">$1,850,000</option>
+                                                        <option value="1900000">$1,900,000</option>
+                                                        <option value="1950000">$1,950,000</option>
+                                                        <option value="2000000">$2,000,000</option>
+                                                        <option value="2050000">$2,050,000</option>
+                                                        <option value="2100000">$2,100,000</option>
+                                                        <option value="2150000">$2,150,000</option>
+                                                        <option value="2200000">$2,200,000</option>
+                                                        <option value="2250000">$2,250,000</option>
+                                                        <option value="2300000">$2,300,000</option>
+                                                        <option value="2350000">$2,350,000</option>
+                                                        <option value="2400000">$2,400,000</option>
+                                                        <option value="2450000">$2,450,000</option>
+                                                        <option value="2500000">$2,500,000</option>
+                                                        <option value="2550000">$2,550,000</option>
+                                                        <option value="2600000">$2,600,000</option>
+                                                        <option value="2650000">$2,650,000</option>
+                                                        <option value="2700000">$2,700,000</option>
+                                                        <option value="2750000">$2,750,000</option>
+                                                        <option value="2800000">$2,800,000</option>
+                                                        <option value="2850000">$2,850,000</option>
+                                                        <option value="2900000">$2,900,000</option>
+                                                        <option value="2950000">$2,950,000</option>
+                                                        <option value="3000000">$3,000,000</option>
+                                                        <option value="3050000">$3,050,000</option>
+                                                        <option value="3100000">$3,100,000</option>
+                                                        <option value="3150000">$3,150,000</option>
+                                                        <option value="3200000">$3,200,000</option>
+                                                        <option value="3250000">$3,250,000</option>
+                                                        <option value="3300000">$3,300,000</option>
+                                                        <option value="3350000">$3,350,000</option>
+                                                        <option value="3400000">$3,400,000</option>
+                                                        <option value="3450000">$3,450,000</option>
+                                                        <option value="3500000">$3,500,000</option>
+                                                        <option value="3550000">$3,550,000</option>
+                                                        <option value="3600000">$3,600,000</option>
+                                                        <option value="3650000">$3,650,000</option>
+                                                        <option value="3700000">$3,700,000</option>
+                                                        <option value="3750000">$3,750,000</option>
+                                                        <option value="3800000">$3,800,000</option>
+                                                        <option value="3850000">$3,850,000</option>
+                                                        <option value="3900000">$3,900,000</option>
+                                                        <option value="3950000">$3,950,000</option>
+                                                        <option value="4000000">$4,000,000</option>
+                                                        <option value="4050000">$4,050,000</option>
+                                                        <option value="4100000">$4,100,000</option>
+                                                        <option value="4150000">$4,150,000</option>
+                                                        <option value="4200000">$4,200,000</option>
+                                                        <option value="4250000">$4,250,000</option>
+                                                        <option value="4300000">$4,300,000</option>
+                                                        <option value="4350000">$4,350,000</option>
+                                                        <option value="4400000">$4,400,000</option>
+                                                        <option value="4450000">$4,450,000</option>
+                                                        <option value="4500000">$4,500,000</option>
+                                                        <option value="4550000">$4,550,000</option>
+                                                        <option value="4600000">$4,600,000</option>
+                                                        <option value="4650000">$4,650,000</option>
+                                                        <option value="4700000">$4,700,000</option>
+                                                        <option value="4750000">$4,750,000</option>
+                                                        <option value="4800000">$4,800,000</option>
+                                                        <option value="4850000">$4,850,000</option>
+                                                        <option value="4900000">$4,900,000</option>
+                                                        <option value="4950000">$4,950,000</option>
+                                                        <option value="5000000">$5,000,000</option>
+                                                        <option value="5050000">$5,050,000</option>
+                                                        <option value="5100000">$5,100,000</option>
+                                                        <option value="5150000">$5,150,000</option>
+                                                        <option value="5200000">$5,200,000</option>
+                                                        <option value="5250000">$5,250,000</option>
+                                                        <option value="5300000">$5,300,000</option>
+                                                        <option value="5350000">$5,350,000</option>
+                                                        <option value="5400000">$5,400,000</option>
+                                                        <option value="5450000">$5,450,000</option>
+                                                        <option value="5500000">$5,500,000</option>
+                                                        <option value="5550000">$5,550,000</option>
+                                                        <option value="5600000">$5,600,000</option>
+                                                        <option value="5650000">$5,650,000</option>
+                                                        <option value="5700000">$5,700,000</option>
+                                                        <option value="5750000">$5,750,000</option>
+                                                        <option value="5800000">$5,800,000</option>
+                                                        <option value="5850000">$5,850,000</option>
+                                                        <option value="5900000">$5,900,000</option>
+                                                        <option value="5950000">$5,950,000</option>
+                                                        <option value="6000000">$6,000,000</option>
+                                                        <option value="6050000">$6,050,000</option>
+                                                        <option value="6100000">$6,100,000</option>
+                                                        <option value="6150000">$6,150,000</option>
+                                                        <option value="6200000">$6,200,000</option>
+                                                        <option value="6250000">$6,250,000</option>
+                                                        <option value="6300000">$6,300,000</option>
+                                                        <option value="6350000">$6,350,000</option>
+                                                        <option value="6400000">$6,400,000</option>
+                                                        <option value="6450000">$6,450,000</option>
+                                                        <option value="6500000">$6,500,000</option>
+                                                        <option value="6550000">$6,550,000</option>
+                                                        <option value="6600000">$6,600,000</option>
+                                                        <option value="6650000">$6,650,000</option>
+                                                        <option value="6700000">$6,700,000</option>
+                                                        <option value="6750000">$6,750,000</option>
+                                                        <option value="6800000">$6,800,000</option>
+                                                        <option value="6850000">$6,850,000</option>
+                                                        <option value="6900000">$6,900,000</option>
+                                                        <option value="6950000">$6,950,000</option>
+                                                        <option value="7000000">$7,000,000</option>
+                                                        <option value="7050000">$7,050,000</option>
+                                                        <option value="7100000">$7,100,000</option>
+                                                        <option value="7150000">$7,150,000</option>
+                                                        <option value="7200000">$7,200,000</option>
+                                                        <option value="7250000">$7,250,000</option>
+                                                        <option value="7300000">$7,300,000</option>
+                                                        <option value="7350000">$7,350,000</option>
+                                                        <option value="7400000">$7,400,000</option>
+                                                        <option value="7450000">$7,450,000</option>
+                                                        <option value="7500000">$7,500,000</option>
+                                                        <option value="7550000">$7,550,000</option>
+                                                        <option value="7600000">$7,600,000</option>
+                                                        <option value="7650000">$7,650,000</option>
+                                                        <option value="7700000">$7,700,000</option>
+                                                        <option value="7750000">$7,750,000</option>
+                                                        <option value="7800000">$7,800,000</option>
+                                                        <option value="7850000">$7,850,000</option>
+                                                        <option value="7900000">$7,900,000</option>
+                                                        <option value="7950000">$7,950,000</option>
+                                                        <option value="8000000">$8,000,000</option>
+                                                        <option value="8050000">$8,050,000</option>
+                                                        <option value="8100000">$8,100,000</option>
+                                                        <option value="8150000">$8,150,000</option>
+                                                        <option value="8200000">$8,200,000</option>
+                                                        <option value="8250000">$8,250,000</option>
+                                                        <option value="8300000">$8,300,000</option>
+                                                        <option value="8350000">$8,350,000</option>
+                                                        <option value="8400000">$8,400,000</option>
+                                                        <option value="8450000">$8,450,000</option>
+                                                        <option value="8500000">$8,500,000</option>
+                                                        <option value="8550000">$8,550,000</option>
+                                                        <option value="8600000">$8,600,000</option>
+                                                        <option value="8650000">$8,650,000</option>
+                                                        <option value="8700000">$8,700,000</option>
+                                                        <option value="8750000">$8,750,000</option>
+                                                        <option value="8800000">$8,800,000</option>
+                                                        <option value="8850000">$8,850,000</option>
+                                                        <option value="8900000">$8,900,000</option>
+                                                        <option value="8950000">$8,950,000</option>
+                                                        <option value="9000000">$9,000,000</option>
+                                                        <option value="9050000">$9,050,000</option>
+                                                        <option value="9100000">$9,100,000</option>
+                                                        <option value="9150000">$9,150,000</option>
+                                                        <option value="9200000">$9,200,000</option>
+                                                        <option value="9250000">$9,250,000</option>
+                                                        <option value="9300000">$9,300,000</option>
+                                                        <option value="9350000">$9,350,000</option>
+                                                        <option value="9400000">$9,400,000</option>
+                                                        <option value="9450000">$9,450,000</option>
+                                                        <option value="9500000">$9,500,000</option>
+                                                        <option value="9550000">$9,550,000</option>
+                                                        <option value="9600000">$9,600,000</option>
+                                                        <option value="9650000">$9,650,000</option>
+                                                        <option value="9700000">$9,700,000</option>
+                                                        <option value="9750000">$9,750,000</option>
+                                                        <option value="9800000">$9,800,000</option>
+                                                        <option value="9850000">$9,850,000</option>
+                                                        <option value="9900000">$9,900,000</option>
+                                                        <option value="9950000">$9,950,000</option>
+                                                        <option value="10000000">$10,000,000</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_bedrooms_min fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Bedrooms Min </label>
+												<div class="field">
+													<select name="property_bedrooms_min" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                        <option value="4">4 +</option>
+                                                        <option value="5">5 +</option>
+                                                        <option value="6">6 +</option>
+                                                        <option value="7">7 +</option>
+                                                        <option value="8">8 +</option>
+                                                        <option value="9">9 +</option>
+                                                        <option value="10">10 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_bedrooms_max fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Bedrooms Max </label>
+												<div class="field">
+													<select name="property_bedrooms_max" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                        <option value="4">4 +</option>
+                                                        <option value="5">5 +</option>
+                                                        <option value="6">6 +</option>
+                                                        <option value="7">7 +</option>
+                                                        <option value="8">8 +</option>
+                                                        <option value="9">9 +</option>
+                                                        <option value="10">10 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_bathrooms fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Bathrooms </label>
+												<div class="field">
+													<select name="property_bathrooms" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-row-select epl-property_carport fm-block epl-search-row-half">
+												<label class="epl-search-label fm-label">
+                                                    Car Spaces </label>
+												<div class="field">
+													<select name="property_carport" class="in-field field-width">
+                                                        <option value="">
+                                                            Any </option>
+                                                        <option value="1">1 +</option>
+                                                        <option value="2">2 +</option>
+                                                        <option value="3">3 +</option>
+                                                    </select>
+												</div>
+											</div>
+											<div class="epl-search-row epl-search-other"> <span class="epl-search-row epl-search-row-checkbox epl-search-row-half">
+                                                            <input type="checkbox" name="property_air_conditioning" id="kv-7" class="in-field">
+                                                            <label for="kv-7" class="check-label"><span></span> Air Conditioning
+												</label>
+												</span> <span class="epl-search-row epl-search-row-checkbox epl-search-row-half">
+                                                            <input type="checkbox" name="property_pool" class="in-field" id="kv-8">
+                                                            <label for="kv-8" class="check-label"><span></span> Pool </label>
+												</span> <span class="epl-search-row epl-search-row-checkbox epl-search-row-half">
+                                                            <input type="checkbox" name="property_security_system" id="kv-9" class="in-field">
+                                                            <label for="kv-9" class="check-label"><span></span> Security
+												</label>
+												</span>
+											</div>
+											<div class="epl-search-submit-row epl-search-submit property-type-search">
+												<input type="submit" value="Find me a Property!" class="epl-search-btn">
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="real_bd_shit"></div>
+					</div>
+					<div class="col-md-8 col-sm-12 col-xs-12 col_custom_right" style="height: 754px;">
+						<div class="widget real_widget_solution">
+							<header class="widget-header ">
+								<h3 class="widget-title">Featured Properties</h3>
+								<p>Look at our Latest listed properties and check out the facilities on them, We have already sold more than 5,000 Homes
+									and we are still going at very good pace.</p>
+							</header>
+							<div class="widget-content">
+								<ul class="row">
+									<li class="col-md-6 col-sm-12">
+										<article class="entry-item real-item-service">
+											<div class="entry-icon">
+												<i class="flaticon-home22"></i>
+											</div>
+											<div class="entry-content">
+												<h4 class="entry-title ">
+													<a href="#">Save money</a>
+												</h4>
+												<p>It starts with our living database of more than 110 million U.S. homes – including homes for sale, homes for
+													rent and homes not currently on the market.
+												</p>
+												<a href="#">see now
+                                                    <i class="ti-arrow-right"></i>
+                                                </a>
+											</div>
+										</article>
+									</li>
+									<li class="col-md-6 col-sm-12">
+										<article class="entry-item real-item-service">
+											<div class="entry-icon">
+												<i class="flaticon-money216"></i>
+											</div>
+											<div class="entry-content">
+												<h4 class="entry-title">
+													<a href="#">GOOD SALES &amp; MARKETING</a>
+												</h4>
+												<p>In addition, RealtySpace operates the largest real estate and rental advertising networks in the U.S. in partnership
+													with Livemile Homes!
+												</p>
+												<a href="#">see now
+                                                    <i class="ti-arrow-right"></i>
+                                                </a>
+											</div>
+										</article>
+									</li>
+									<li class="col-md-6 col-sm-12">
+										<article class="entry-item real-item-service">
+											<div class="entry-icon">
+												<i class="flaticon-searching23"></i>
+											</div>
+											<div class="entry-content">
+												<h4 class="entry-title">
+													<a href="#">EASY TO FIND</a>
+												</h4>
+												<p>It starts with our living database of more than 110 million U.S. homes – including homes for sale, homes for
+													rent and homes not currently on the market.
+												</p>
+												<a href="#">see now
+                                                    <i class="ti-arrow-right"></i>
+                                                </a>
+											</div>
+										</article>
+									</li>
+									<li class="col-md-6 col-sm-12">
+										<article class="entry-item real-item-service">
+											<div class="entry-icon">
+												<i class="flaticon-logistics3"></i>
+											</div>
+											<div class="entry-content">
+												<h4 class="entry-title">
+													<a href="#">Moving home?</a>
+												</h4>
+												<p>At vero eos et accusamus et iusto odio ducimus qui blanditiis praesentium voluptatum del...
+												</p>
+												<a href="#">see now
+                                                    <i class="ti-arrow-right"></i>
+                                                </a>
+											</div>
+										</article>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<!--<section>
 			<div class="container">
 				<div class="title text-center">
@@ -335,45 +2071,56 @@
 		</section>-->
 
 
-    <section class='detail'>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="number-box">
-                <div class="number-wrap">
-                  <h2><i class="hc-todo"></i></h2>
-                </div>
-                <div class="number-box-content">
-                  <h3>Life Style</h3>
-                  <p>Create your best-ever home with the latest trends in renovating, decorating and more.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="number-box">
-                <div class="number-wrap">
-                  <h2><i class="hc-server-cloud"></i></h2>
-                </div>
-                <div class="number-box-content">
-                  <h3>international</h3>
-                  <p>Thinking abroad? You can now dream and discover international properties.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="number-box">
-                <div class="number-wrap">
-                  <h2><i class="hc-brush"></i></h2>
-                </div>
-                <div class="number-box-content">
-                  <h3>Sell</h3>
-                  <p>Understand your local market, learn how to get the best price for your property and find agents in your <area shape="" coords="" href="" alt="" class=""></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+		<section class='detail'>
+			<div class="container">
+				<header class="widget-header style-01">
+					<h3 class="widget-title">Why Us</h3>
+					<p>Look at our Latest listed properties and check out the facilities on them, We have already sold more
+					</p>
+					<div class="line-bottom">
+						<span></span>
+					</div>
+				</header>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="number-box">
+							<div class="number-wrap">
+								<h2><i class="hc-todo"></i></h2>
+							</div>
+							<div class="number-box-content">
+								<h3>Life Style</h3>
+								<p>Create your best-ever home with the latest trends in renovating, decorating and more.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="number-box">
+							<div class="number-wrap">
+								<h2><i class="hc-server-cloud"></i></h2>
+							</div>
+							<div class="number-box-content">
+								<h3>international</h3>
+								<p>Thinking abroad? You can now dream and discover international properties.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="number-box">
+							<div class="number-wrap">
+								<h2><i class="hc-brush"></i></h2>
+							</div>
+							<div class="number-box-content">
+								<h3>Sell</h3>
+								<p>Understand your local market, learn how to get the best price for your property and find agents in your
+									<area shape=""
+									coords="" href="" alt="" class="">
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="real_area real_area_02">
 			<div class="container">
@@ -939,144 +2686,121 @@
 				</div>
 			</div>
 		</section>
-		<section class="real_area real_area_04">
+
+		<section>
 			<div class="container">
-				<div class="widget real-widget-contact-user">
-					<div class="widget-content">
-						<div class="row ">
-							<div class="col-md-6 col-sm-12 col-xs-12">
-								<div class="real-slider">
-									<div class="real-user style-01">
-										<div class="epl-author-box-outer-wrapper epl-clearfix">
-											<div class="epl-author-box epl-author-image author-box author-image">
-												<img alt="" src="images/testi/1.jpg" class="avatar photo">
-											</div>
-											<div class="epl-author-author_id epl-author-tab-content epl-author-box author-box epl-author-current">
-												<div class="epl-author-contact-details author-contact-details">
-													<h5 class="epl-author-title author-title">
-														<a href="#">AGENT Brittany Watkin</a>
-														<span>Real Estate Group</span>
-													</h5>
-													<div class="epl-author-contact author-contact">
-														<span class="label-mobile"></span>
-														<span class="mobile">44 (0) 800 765 1234</span>
-													</div>
-													<div class="epl-author-email author-email">
-														<span class="label-email"></span>
-														<span class="email">alex@gmail.com</span>
-													</div>
-												</div>
-												<div class="epl-clearfix"></div>
-												<div class="epl-author-social-buttons author-social-buttons">
-													<a class="epl-author-icon author-icon facebook-icon-24" href="http://facebook.com/gemtcnit" title="Follow Ray Butster on Facebook">Facebook</a>
-													<a class="epl-author-icon author-icon twitter-icon-24" href="http://twitter.com/gemtcnit" title="Follow Ray Butster on Twitter">Twitter</a>
-													<a class="epl-author-icon author-icon youtube-icon-24" href="https://plus.google.com/gemtcnit" title="Follow Ray Butster on Google">Google</a>
-													<a class="epl-author-icon author-icon skype-icon-24" href="http://skype.com/gemtcnit" title="Follow Ray Butster on Skype">Skype</a>
-												</div>
-											</div>
+				<div class="title text-center">
+					<header class="widget-header style-01">
+						<h3 class="widget-title">Our Blog</h3>
+						<p>Look at our Latest listed properties and check out the facilities on them, We have already sold more than
+						</p>
+						<div class="line-bottom"><span></span></div>
+					</header>
+					<div class="section-content pt-25 pb-25">
+						<div class="row row-flex blog-summary">
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<article class="post-preview" data-animation="fadeInUp">
+									<figure class="post-thumb">
+										<img class="thumb-placeholder" src="images/blog-1.jpg" alt="">
+									</figure>
+									<div class="post-info"><span class="post-category"><a href="#">Lifestyle</a></span>
+										<header class="post-title">
+											<h3 class="serif-font"><a href="#">Your Ultimate Guide For Waking Up Early</a></h3>
+										</header>
+										<div class="post-body">
+											<p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
+										</div>
+										<div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
 										</div>
 									</div>
-									<div class="real-user style-01">
-										<div class="epl-author-box-outer-wrapper epl-clearfix ">
-											<div class="epl-author-box epl-author-image author-box author-image">
-												<img alt="" src="images/testi/1.jpg" class="avatar photo">
-											</div>
-											<div class="epl-author-author_id epl-author-tab-content epl-author-box author-box epl-author-current">
-												<div class="epl-author-contact-details author-contact-details">
-													<h5 class="epl-author-title author-title">
-														<a href="#">AGENT Ray Butster</a>
-														<span>Real Estate Group</span>
-													</h5>
-													<div class="epl-author-contact author-contact">
-														<span class="label-mobile"></span>
-														<span class="mobile">44 (0) 800 765 1234</span>
-													</div>
-													<div class="epl-author-email author-email">
-														<span class="label-email"></span>
-														<span class="email">ray@gmail.com</span>
-													</div>
-												</div>
-												<div class="epl-clearfix"></div>
-												<div class="epl-author-social-buttons author-social-buttons">
-													<a class="epl-author-icon author-icon facebook-icon-24" href="http://facebook.com/gemtcnit" title="Follow Ray Butster on Facebook">Facebook</a>
-													<a class="epl-author-icon author-icon twitter-icon-24" href="http://twitter.com/gemtcnit" title="Follow Ray Butster on Twitter">Twitter</a>
-													<a class="epl-author-icon author-icon youtube-icon-24" href="https://plus.google.com/gemtcnit" title="Follow Ray Butster on Google">Google</a>
-													<a class="epl-author-icon author-icon skype-icon-24" href="http://skype.com/gemtcnit" title="Follow Ray Butster on Skype">Skype</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+								</article>
 							</div>
-							<div class="col-md-6 col-sm-12 col-xs-12">
-								<div class="user-contact">
-									<div class="epl-author-contact_form epl-author-tab-content epl-author-box author-box epl-author-current">
-										<form method="post" class="contact-form white-text" novalidate="novalidate">
-											<h3>CONTACT Brittany Watkins</h3>
-											<div class="row">
-												<div class="col-md-6 col-sm-6 col-xs-12">
-													<p>
-														<label>First Name:
-                              <br>
-                              <span>
-                              <input type="text" name="first-name" aria-required="true" aria-invalid="false">
-                              </span>
-                              </label>
-													</p>
-												</div>
-												<div class="col-md-6 col-sm-6 col-xs-12">
-													<p>
-														<label>Last Name:
-                              <br>
-                              <span>
-                              <input type="text" name="last-name" aria-required="true" aria-invalid="false">
-                              </span>
-                              </label>
-													</p>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-xs-12">
-													<p>
-														<label>Email:
-                              <br>
-                              <span class="your-email">
-                              <input type="email" name="your-email" aria-required="true" aria-invalid="false">
-                              </span>
-                              </label>
-													</p>
-												</div>
-												<!-- <div class="col-xs-12">
-                            <p>
-                                <label>Subject:
-                                    <br>
-                                    <span class=" your-subject">
-                                        <input type="text" name="your-subject" aria-invalid="false">
-                                    </span>
-                                </label>
-                            </p>
-                            </div> -->
-											</div>
-											<p>
-												<label>Your Message:
-                          <br>
-                          <span class="your-message">
-                          <textarea name="your-message" cols="40" rows="4" aria-invalid="false"></textarea>
-                          </span>
-                          </label>
-											</p>
-											<p class="submit">
-												<input type="submit" value="Send">
-											</p>
-										</form>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<article class="post-preview" data-animation="fadeInUp" data-delay="400">
+									<figure class="post-thumb">
+										<img class="thumb-placeholder" src="images/blog-2.jpg" alt="">
+									</figure>
+									<div class="post-info"><span class="post-category"><a href="#">Mobile</a></span>
+										<header class="post-title">
+											<h3 class="serif-font"><a href="#">Why unlimited data is making a comeback</a></h3>
+										</header>
+										<div class="post-body">
+											<p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
+										</div>
+										<div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
+										</div>
 									</div>
-								</div>
+								</article>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<article class="post-preview" data-animation="fadeInUp" data-delay="800">
+									<figure class="post-thumb">
+										<img class="thumb-placeholder" src="images/blog-3.jpg" alt="">
+									</figure>
+									<div class="post-info"><span class="post-category"><a href="#">Design</a></span>
+										<header class="post-title">
+											<h3 class="serif-font"><a href="#">Getting Started With VR Design</a></h3>
+										</header>
+										<div class="post-body">
+											<p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
+										</div>
+										<div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<article class="post-preview" data-animation="fadeInUp">
+									<figure class="post-thumb">
+										<img class="thumb-placeholder" src="images/blog-4.jpg" alt="">
+									</figure>
+									<div class="post-info"><span class="post-category"><a href="#">Business</a></span>
+										<header class="post-title">
+											<h3 class="serif-font"><a href="#">DigitalOcean launches load balancers</a></h3>
+										</header>
+										<div class="post-body">
+											<p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
+										</div>
+										<div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<article class="post-preview" data-animation="fadeInUp" data-delay="400">
+									<figure class="post-thumb">
+										<img class="thumb-placeholder" src="images/blog-5.jpg" alt="">
+									</figure>
+									<div class="post-info"><span class="post-category"><a href="#">Technology</a></span>
+										<header class="post-title">
+											<h3 class="serif-font"><a href="#">Why AWS has such a big lead in the cloud</a></h3>
+										</header>
+										<div class="post-body">
+											<p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
+										</div>
+										<div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<article class="post-preview show-all-posts" data-animation="fadeInUp" data-delay="800">
+									<a href="#">
+										<div class="centrize">
+											<div class="v-center">
+												<div class="icon-box align-center"><i class="hc-add"></i>
+													<h4 class="serif-font">View All Posts</h4>
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 		</section>
+
 		<section class="real_area real_area_15">
 			<div class="container">
 				<div class="widget real_widget_intro_3_has_owl">
@@ -1250,116 +2974,7 @@
 				</div>
 			</div>
 		</section>
-      <section>
-        <div class="container">
-          <div class="title text-center">
-            <h2 data-bigletter="O">Our Blog</h2>
-            <hr>
-          </div>
-          <div class="section-content pt-25 pb-25">
-            <div class="row row-flex blog-summary">
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <article class="post-preview" data-animation="fadeInUp">
-                  <figure class="post-thumb">
-                    <img class="thumb-placeholder" src="images/blog-1.jpg" alt="">
-                  </figure>
-                  <div class="post-info"><span class="post-category"><a href="#">Lifestyle</a></span>
-                    <header class="post-title">
-                      <h3 class="serif-font"><a href="#">Your Ultimate Guide For Waking Up Early</a></h3>
-                    </header>
-                    <div class="post-body">
-                      <p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
-                    </div>
-                    <div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <article class="post-preview" data-animation="fadeInUp" data-delay="400">
-                  <figure class="post-thumb">
-                    <img class="thumb-placeholder" src="images/blog-2.jpg" alt="">
-                  </figure>
-                  <div class="post-info"><span class="post-category"><a href="#">Mobile</a></span>
-                    <header class="post-title">
-                      <h3 class="serif-font"><a href="#">Why unlimited data is making a comeback</a></h3>
-                    </header>
-                    <div class="post-body">
-                      <p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
-                    </div>
-                    <div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <article class="post-preview" data-animation="fadeInUp" data-delay="800">
-                  <figure class="post-thumb">
-                    <img class="thumb-placeholder" src="images/blog-3.jpg" alt="">
-                  </figure>
-                  <div class="post-info"><span class="post-category"><a href="#">Design</a></span>
-                    <header class="post-title">
-                      <h3 class="serif-font"><a href="#">Getting Started With VR Design</a></h3>
-                    </header>
-                    <div class="post-body">
-                      <p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
-                    </div>
-                    <div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <article class="post-preview" data-animation="fadeInUp">
-                  <figure class="post-thumb">
-                    <img class="thumb-placeholder" src="images/blog-4.jpg" alt="">
-                  </figure>
-                  <div class="post-info"><span class="post-category"><a href="#">Business</a></span>
-                    <header class="post-title">
-                      <h3 class="serif-font"><a href="#">DigitalOcean launches load balancers</a></h3>
-                    </header>
-                    <div class="post-body">
-                      <p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
-                    </div>
-                    <div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <article class="post-preview" data-animation="fadeInUp" data-delay="400">
-                  <figure class="post-thumb">
-                    <img class="thumb-placeholder" src="images/blog-5.jpg" alt="">
-                  </figure>
-                  <div class="post-info"><span class="post-category"><a href="#">Technology</a></span>
-                    <header class="post-title">
-                      <h3 class="serif-font"><a href="#">Why AWS has such a big lead in the cloud</a></h3>
-                    </header>
-                    <div class="post-body">
-                      <p class="serif-font">Quos soluta corporis iure cum sequi maiores quod molestias in qui esse, nulla cumque iusto.</p>
-                    </div>
-                    <div class="post-meta"><span><a href="#">Mike Ross</a> on February 14, 2017</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <article class="post-preview show-all-posts" data-animation="fadeInUp" data-delay="800">
-                  <a href="#">
-                    <div class="centrize">
-                      <div class="v-center">
-                        <div class="icon-box align-center"><i class="hc-add"></i>
-                          <h4 class="serif-font">View All Posts</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 		<section class="real_area real_has_images_bg_01 double-widget white-text-style">
 			<div class="container">
 				<div class="widget real_widget_one_hit_title">
@@ -1421,153 +3036,123 @@
 				</div>
 			</div>
 		</section>
-	</div>
-	<!-- end main content -->
-	<div id="bottom_sidebar" class="white-text-style">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<div class="widget real-widget-post-bottomsidebar">
-						<h3 class="widget-title">recent posts</h3>
-						<div class="widget-content">
-							<ul>
-								<li>
-									<a href="#">
-										<p>Standard Blog Post</p>
-										<span>26 January, 2018</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<p>This is an awesome template</p>
-										<span>25 January, 2018</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<p>How to customize this designs</p>
-										<span>24 January, 2018</span>
-									</a>
-								</li>
-							</ul>
+
+		<footer id="footer">
+			<div class="footer-widgets">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="widget">
+								<figure class="footer-logo mb-15">
+									<img src="images/logo-dark.png" alt="">
+								</figure>
+								<div class="textwidget">
+									<p>
+										Level 35, Tower One, International Towers 100 Barangaroo Avenue, Sydney NSW 2000</p>
+										<p>support@homebee.com
+											<br>001 (841) 136251987</p>
+
+                      
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<div class="widget real-widget-post-bottomsidebar">
-						<h3 class="widget-title">popular posts</h3>
-						<div class="widget-content">
-							<ul>
-								<li>
-									<a href="#">
-										<p>Yosemite is a Multi-Purpose Theme</p>
-										<span>26 January, 2018</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<p>How to download PSD Template?</p>
-										<span>25 January, 2018</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<p>Who make Yosemite Design?</p>
-										<span>24 January, 2018</span>
-									</a>
-								</li>
-							</ul>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget">
+								<h5>The Company</h5>
+								<div class="menu-footer">
+									<ul>
+										<li><a href="#">About Us</a>
+										</li>
+										<li><a href="#">What We Do</a>
+										</li>
+										<li><a href="#">Our Vision</a>
+										</li>
+										<li><a href="#">Portfolio</a>
+										</li>
+										<li><a href="#">Careers</a>
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<div class="widget real-widget-gallery">
-						<h3 class="widget-title">latest works</h3>
-						<div class="widget-content">
-							<ul>
-								<li>
-									<a href="#">
-										<img src="images/gallery/1.jpg" alt="1">
-										<span class="fa fa-angle-right"></span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/gallery/2.jpg" alt="1">
-										<span class="fa fa-angle-right"></span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/gallery/3.jpg" alt="1">
-										<span class="fa fa-angle-right"></span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/gallery/4.jpg" alt="1">
-										<span class="fa fa-angle-right"></span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/gallery/5.jpg" alt="1">
-										<span class="fa fa-angle-right"></span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/gallery/6.jpg" alt="1">
-										<span class="fa fa-angle-right"></span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/gallery/7.jpg" alt="1">
-										<span class="fa fa-angle-right"></span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="images/gallery/8.jpg" alt="1">
-										<span class="fa fa-angle-right"></span>
-									</a>
-								</li>
-							</ul>
-							<a href="#">Learn More</a>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget">
+								<h5>Recent Posts</h5>
+								<div class="menu-footer">
+									<ul>
+										<li><a href="#">Which apartment should you invest in</a>
+										</li>
+										<li><a href="#">How To Add Value To Your Life and home</a>
+										</li>
+										<li><a href="#">When to make an offer on our dream home</a>
+										</li>
+										<li><a href="#">A transient boat house</a>
+										</li>
+										<li><a href="#">How to maximise your search to find your dream home</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="widget">
+								<h5>Popular Tags</h5>
+								<div class="tagcloud"><a href="#">Apartment</a><a href="#">Villas</a><a href="#">Global</a><a href="#">Inspiration</a><a href="#">Lifestyle</a><a
+									href="#">Buying Tips</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<!-- end bottom sidebar -->
-	<footer class="real_footer ">
-		<div class="container">
-			<p>© 2015 Real house Design. All Rights Reserved. Designed by <a href="kopatheme.html">kopasoft</a></p>
-		</div>
-	</footer>
-	<!-- end footer -->
-	<a href="#" class="real_scroll_top">
-		<span class="fa fa-arrow-up"></span>
-	</a>
-	<script src="js/jquery-2.2.4.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/jquery.sliderPro.js"></script>
-	<script src="js/imagesloaded.js"></script>
-	<script src="js/masonry.pkgd.js"></script>
-	<script src="js/jquery.matchHeight.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/gmap3.js"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
-	<script src="js/pongstagr.am.js"></script>
-	<script src="js/jquery.fitvids.js"></script>
-	<script src="js/superfish.js"></script>
-	<script src="js/jquery.form.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/slick.js"></script>
-	<script src="js/jquery.mCustomScrollbar.js"></script>
-	<script src="js/custom.js"></script>
+			<div class="footer-copy" style='background:#000;'>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<ul class="social-list">
+								<li class="social-item-linkedin"><a target="_blank" href="#"><i class="hc-linkedin"></i></a>
+								</li>
+								<li class="social-item-facebook"><a target="_blank" href="#"><i class="hc-facebook"></i></a>
+								</li>
+								<li class="social-item-twitter"><a target="_blank" href="#"><i class="hc-twitter"></i></a>
+								</li>
+								<li class="social-item-pinterest"><a target="_blank" href="#"><i class="hc-pinterest"></i></a>
+								</li>
+								<li class="social-item-instagram"><a target="_blank" href="#"><i class="hc-instagram"></i></a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-6">
+							<div class="copy-text">
+								<p  style='color:#ccc;'>© 2017 Home Bee. All rights reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- end footer -->
+		<a href="#" class="real_scroll_top">
+			<span class="fa fa-arrow-up"></span>
+		</a>
+		<script src="js/jquery-2.2.4.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jquery.sliderPro.js"></script>
+		<script src="js/imagesloaded.js"></script>
+		<script src="js/masonry.pkgd.js"></script>
+		<script src="js/jquery.matchHeight.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/gmap3.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+		<script src="js/pongstagr.am.js"></script>
+		<script src="js/jquery.fitvids.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.form.js"></script>
+		<script src="js/jquery.validate.js"></script>
+		<script src="js/slick.js"></script>
+		<script src="js/jquery.mCustomScrollbar.js"></script>
+		<script src="js/custom.js"></script>
 </body>
 
 </html>

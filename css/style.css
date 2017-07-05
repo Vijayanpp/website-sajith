@@ -457,7 +457,12 @@ input[type="radio"]:not(:checked):before {
   display: inline-block;
   right: 20px;
   bottom: 22px;
+  border: 1px solid #fed301
 }
+.real_scroll_top:hover
+{
+  border:1px solid #ccc;
+};
 
 .real_scroll_top span {
   font-size: 14px;
@@ -880,7 +885,7 @@ input[type="radio"]:not(:checked):before {
 }
 
 .real_area_03 {
-  background-color: #f7f7f7;
+  background-color: #f1f0f0;
   padding-bottom: 100px;
   padding-top: 97px;
 }
@@ -5389,11 +5394,11 @@ li.tbhead.current {
 }
 
 .widget_epl_property_search .epl-search-forms-wrapper .epl-search-submit input {
-  background-color: transparent;
+  background-color:#ffdf00;
   border: 1px solid #000;
   padding: 15px 0;
   font-size: 18px;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1px;
@@ -22638,14 +22643,16 @@ section.gradient-bg:not([data-gradients]) {
     }
     .menu-extras .menu-item .header-socials>ul>li>a {
         color: #ffdf00;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 80px;
         -webkit-transition: all .3s ease;
         transition: all .3s ease;
         width: 50px;
         height: 50px;
         background: #000;
-        padding: 20px
+        padding: 20px;
+        font-weight: 500;
+        border:1px solid #ffdf00;
     }
     .menu-extras .menu-item .header-socials>ul>li>a:hover {
         color: #ccc
@@ -22689,7 +22696,8 @@ section.gradient-bg:not([data-gradients]) {
     #navbar.stick .menu-extras .menu-item .header-socials>ul>li>a {
         color: #242424;
         line-height: 60px;
-        background: #fff
+        background: #fff;
+        border:none;
     }
     #navbar.stick .menu-extras .menu-item .header-socials>ul>li>a:hover {
         color: #ffdf00
@@ -24441,15 +24449,7 @@ section.section-skewed.section-bordered #home-slider:after {
     font-weight: 600
 }
 
-@media only screen and (min-width:992px) {
-    #footer {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1
-    }
-}
+
 
 @media only screen and (min-width:1200px) {
     .boxed-layout #footer {
@@ -24564,7 +24564,8 @@ section.section-skewed.section-bordered #home-slider:after {
 }
 
 .copy-text {
-    text-align: right
+    text-align: right;
+    color:#ccc;
 }
 
 #filters,
@@ -28571,4 +28572,9 @@ img.zoom-img {
 .thumb-placeholder
 {
   height:100%;
+}
+.textwidget p
+{
+  font-family: 'Source Sans'!important;
+  color:#6c6c6c;
 }
